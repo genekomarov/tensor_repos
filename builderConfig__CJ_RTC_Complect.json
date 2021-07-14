@@ -1,0 +1,78 @@
+{
+  "cache": "./_build/build_CJ_RTC_Complect/cache",
+  "output": "./_build/build_CJ_RTC_Complect/output",
+  "logs": "./_build/build_CJ_RTC_Complect/logs",
+  "checkDependenciesGraph": false,
+  "localization": false,
+  "default-localization": false,
+  "wml": false,
+  "deprecatedXhtml": false,
+  "themes": true,
+  "sources": true,
+  "presentationServiceMeta": true,
+  "dependenciesGraph": true,
+  "typescript": true,
+  "less": true,
+  "contents": true,
+  "htmlWml": true,
+  "deprecatedWebPageTemplates": true,
+  "multi-service": true,
+  "modules": [
+    {
+      "name": "Controls-default-theme",
+      "path": "./wasaby-controls/Controls-default-theme"
+    },
+    {
+      "name": "Controls",
+      "path": "./wasaby-controls/Controls"
+    },
+    {
+      "name": "CJCommon",
+      "path": "./eo-engine/client/CJCommon"
+    },
+    {
+      "name": "CJ",
+      "path": "./eo-engine/client/CJ"
+    },
+    {
+      "name": "MiniCJ",
+      "path": "./eo-engine/client/MiniCJ"
+    },
+    {
+      "name": "RealtimeCheck",
+      "path": "./eo-engine/client/RealtimeCheck"
+    },
+    {
+      "name": "EOComplect",
+      "path": "./eo-core/client/EOComplect"
+    },
+    {
+      "name": "FED2UI",
+      "path": "./fed-core/client/FED2UI"
+    },
+    {
+      "name": "FED2Srv",
+      "path": "./fed-core/client/FED2Srv"
+    },
+    {
+      "name": "FED",
+      "path": "./fed-core/client/FED"
+    },
+    {
+      "name": "Controls-fed2-theme",
+      "path": "./fed-core/client/Controls-fed2-theme"
+    },
+    {
+      "name": "EO",
+      "path": "./eo-np/client/EO"
+    },
+    {
+      "name": "SBIS3.CONTROLS",
+      "path": "./sbis3controls/SBIS3.CONTROLS"
+    },
+    {
+      "name": "EOPFR2",
+      "path": "./eo-employees/client/EOPFR2"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "cache": "./_build/build_Platform/cache",
+  "output": "./_build/build_Platform/output",
+  "logs": "./_build/build_Platform/logs",
+  "checkDependenciesGraph": false,
+  "localization": false,
+  "default-localization": false,
+  "wml": false,
+  "deprecatedXhtml": false,
+  "themes": true,
+  "sources": true,
+  "presentationServiceMeta": true,
+  "dependenciesGraph": true,
+  "typescript": true,
+  "less": true,
+  "contents": true,
+  "htmlWml": true,
+  "deprecatedWebPageTemplates": true,
+  "multi-service": true,
+  "modules": [
+    {
+      "name": "Controls",
+      "path": "./wasaby-controls/Controls"
+    },
+    {
+      "name": "Controls-default-theme",
+      "path": "./wasaby-controls/Controls-default-theme"
+    }
+  ]
+}

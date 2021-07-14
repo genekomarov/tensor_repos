@@ -1,0 +1,30 @@
+{
+  "cache": "./_build/build_DocumentFormats/cache",
+  "output": "./_build/build_DocumentFormats/output",
+  "logs": "./_build/build_DocumentFormats/logs",
+  "checkDependenciesGraph": false,
+  "localization": false,
+  "default-localization": false,
+  "wml": false,
+  "deprecatedXhtml": false,
+  "themes": true,
+  "sources": true,
+  "presentationServiceMeta": true,
+  "dependenciesGraph": true,
+  "typescript": true,
+  "less": true,
+  "contents": true,
+  "htmlWml": true,
+  "deprecatedWebPageTemplates": true,
+  "multi-service": true,
+  "modules": [
+    {
+      "name": "FEDControlPanel",
+      "path": "./fed-documentformats/client-adm/FEDControlPanel"
+    },
+    {
+      "name": "FEDFormatCP",
+      "path": "./fed-documentformats/client-adm/FEDFormatCP"
+    }
+  ]
+}
