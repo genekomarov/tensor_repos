@@ -1,0 +1,172 @@
+{
+    "cache": "./build-ui/builder-json-cache",
+    "typescript": true,
+    "contents": true,
+    "tsconfig": "es5.test.json",
+    "joinedMeta": true,
+    "clearOutput": true,
+    "tsc": true,
+    "less": true,
+    "symlinks": true,
+    "resourcesUrl": false,
+    "modules": [
+        {
+            "name": "CJ",
+            "path": "G:\\repos\\eo-engine\\client\\CJ",
+            "required": true
+        },
+        {
+            "name": "FED",
+            "path": "G:\\repos\\fed-core\\client\\FED",
+            "required": false
+        },
+        {
+            "name": "RichEditor",
+            "path": "G:\\repos\\sbis-engine\\client\\RichEditor",
+            "required": false
+        },
+        {
+            "name": "RealtimeCheck",
+            "path": "G:\\repos\\eo-engine\\client\\RealtimeCheck",
+            "required": true
+        },
+        {
+            "name": "CJCommon",
+            "path": "G:\\repos\\eo-engine\\client\\CJCommon",
+            "required": true
+        },
+        {
+            "name": "LongOperations",
+            "path": "G:\\repos\\sbis-engine\\client\\LongOperations",
+            "required": false
+        },
+        {
+            "name": "SBIS3.CONTROLS",
+            "path": "G:\\repos\\sbis-sbis3controls\\SBIS3.CONTROLS",
+            "required": true
+        },
+        {
+            "name": "Controls",
+            "path": "G:\\repos\\saby-wasaby-controls\\Controls",
+            "required": true
+        },
+        {
+            "name": "File",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\File",
+            "required": true
+        },
+        {
+            "name": "SbisFile",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisFile",
+            "required": true
+        },
+        {
+            "name": "FEDSrv",
+            "path": "G:\\repos\\fed-core\\client\\FEDSrv",
+            "required": true
+        },
+        {
+            "name": "Types",
+            "path": "G:\\repos\\saby-types\\Types",
+            "required": true
+        },
+        {
+            "name": "Env",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\Env",
+            "required": true
+        },
+        {
+            "name": "Browser",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\Browser",
+            "required": true
+        },
+        {
+            "name": "UI",
+            "path": "G:\\repos\\saby-ui\\UI",
+            "required": true
+        },
+        {
+            "name": "Controls-default-theme",
+            "path": "G:\\repos\\saby-wasaby-controls\\Controls-default-theme",
+            "required": true
+        },
+        {
+            "name": "SbisEnv",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisEnv",
+            "required": true
+        },
+        {
+            "name": "TransportCore",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\TransportCore",
+            "required": true
+        },
+        {
+            "name": "SbisEnvUI",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisEnvUI",
+            "required": true
+        },
+        {
+            "name": "SbisEnvUI-default-theme",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisEnvUI-default-theme",
+            "required": true
+        },
+        {
+            "name": "EnvConfig",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\EnvConfig",
+            "required": true
+        },
+        {
+            "name": "ParametersWebAPI",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\ParametersWebAPI",
+            "required": true
+        },
+        {
+            "name": "ExtControls",
+            "path": "G:\\repos\\sbis-engine\\client\\ExtControls",
+            "required": false
+        },
+        {
+            "name": "EngineUser",
+            "path": "G:\\repos\\sbis-engine\\client\\EngineUser",
+            "required": false
+        },
+        {
+            "name": "FED2Srv",
+            "path": "G:\\repos\\fed-core\\client\\FED2Srv",
+            "required": true
+        },
+        {
+            "name": "Layout",
+            "path": "G:\\repos\\sbis-engine\\client\\Layout",
+            "required": false
+        },
+        {
+            "name": "Layout-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Layout-default-theme",
+            "required": true
+        },
+        {
+            "name": "Hint",
+            "path": "G:\\repos\\sbis-engine\\client\\Hint",
+            "required": true
+        },
+        {
+            "name": "MiniCJ",
+            "path": "G:\\repos\\eo-engine\\client\\MiniCJ",
+            "required": true
+        },
+        {
+            "name": "DemoStand",
+            "path": "G:\\repos\\saby-wasaby-controls\\DemoStand",
+            "required": false
+        },
+        {
+            "name": "cdn",
+            "minimize": false,
+            "path": "G:\\repos\\node_modules\\wasaby-cli\\resources\\cdn"
+        }
+    ],
+    "output": "G:\\repos\\application",
+    "useReact": false,
+    "logs": "G:\\repos\\application\\logs"
+}

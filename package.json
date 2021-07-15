@@ -1,10 +1,68 @@
 {
+      "name": "repos",
+      "version": "21.3100.0",
+      "description": "Обертка над используемыми репозиториями",
       "scripts": {
             "build:all__CJ_RTC_Complect": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__CJ_RTC_Complect.json",
             "build:all__DocumentFormats": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__DocumentFormats.json",
             "build:all__Platform": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__Platform.json",
             "build:units": "saby-units --install",
-            "checkout": "start checkout.cmd"
+            "wasaby-cli:build": "wasaby-cli --tasks=build",
+            "wasaby-cli:build-watch": "wasaby-cli --tasks=build --watcher",
+            "checkout": "start checkout.cmd",
+            "clone:all": "npm run clone:eo-core && npm run clone:eo-employees && npm run clone:eo-engine && npm run clone:eo-np && npm run clone:fed-core && npm run clone:fed-documentformats && npm run clone:fed-specifications && npm run clone:fed-sbis-ru && npm run clone:sbis-engine && npm run clone:sbis-sbis3controls && npm run clone:saby-wasaby-controls && npm run clone:saby-ui && npm run clone:sbis-rmi && npm run clone:saby-types",
+            "clone:eo-core": "git clone git@git.sbis.ru:eo/core.git eo-core",
+            "clone:eo-employees": "git clone git@git.sbis.ru:eo/employees.git eo-employees",
+            "clone:eo-engine": "git clone git@git.sbis.ru:eo/engine.git eo-engine",
+            "clone:eo-np": "git clone git@git.sbis.ru:eo/np.git eo-np",
+            "clone:fed-core": "git clone git@git.sbis.ru:fed/core.git fed-core",
+            "clone:fed-documentformats": "git clone git@git.sbis.ru:fed/documentformats.git fed-documentformats",
+            "clone:fed-specifications": "git clone git@git.sbis.ru:fed/specifications.git fed-specifications",
+            "clone:fed-sbis-ru": "git clone git@git.sbis.ru:fed/sbis-ru.git fed-sbis-ru",
+            "clone:sbis-engine": "git clone git@git.sbis.ru:sbis/engine.git sbis-engine",
+            "clone:sbis-sbis3controls": "git clone git@git.sbis.ru:sbis/sbis3controls.git sbis-sbis3controls",
+            "clone:saby-wasaby-controls": "git clone https://github.com/saby/wasaby-controls.git saby-wasaby-controls",
+            "clone:saby-ui": "git clone http://platform-git.sbis.ru/saby/ui.git saby-ui",
+            "clone:sbis-rmi": "git clone git@git.sbis.ru:sbis/rmi.git sbis-rmi",
+            "clone:saby-types": "git clone http://platform-git.sbis.ru/saby/types.git saby-types",
+            "clone:sbis-sdn": "git clone https://git.sbis.ru/sbis/cdn.git sbis-sdn"
+      },
+      "devDependencies": {
+            "@tensor-corp/eslint-config": "git+https://git.sbis.ru/sbis/eslint-config-tensor.git",
+            "eslint": "^5.1.0",
+            "saby-builder": "git+https://github.com/saby/builder.git#rc-21.5000",
+            "saby-i18n": "git+https://github.com/saby/i18n.git#rc-21.5000",
+            "saby-inferno": "git+https://github.com/saby/inferno.git#rc-21.5000",
+            "saby-typescript": "git+https://github.com/saby/TypeScript.git#rc-21.5000",
+            "saby-units": "git+https://github.com/saby/Units.git#rc-21.5000",
+            "sbis3-ws": "git+https://git.sbis.ru/sbis/ws.git#rc-21.5000",
+            "wasaby-app": "git+https://github.com/saby/wasaby-app.git#rc-21.5000",
+            "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.4000"
+      },
+      "wasaby-cli": {
+            "repositories": {
+                  "eo-core": ".eo-core",
+                  "eo-employees": ".eo-employees",
+                  "eo-engine": ".eo-engine",
+                  "eo-np": ".eo-np",
+                  "fed-core": ".fed-core",
+                  "fed-documentformats": ".fed-documentformats",
+                  "fed-specifications": ".fed-specifications",
+                  "fed-sbis-ru": ".fed-sbis-ru",
+                  "sbis-engine": ".sbis-engine",
+                  "sbis-sbis3controls": ".sbis-sbis3controls",
+                  "saby-wasaby-controls": ".saby-wasaby-controls",
+                  "saby-ui": ".saby-ui",
+                  "sbis-rmi": ".sbis-rmi",
+                  "saby-types": ".saby-types",
+                  "sbis-sdn": ".sbis-sdn"
+            },
+            "entry": [
+                  "G:\\repos\\eo-engine\\client\\CJ\\CJ.s3mod",
+                  "G:\\repos\\eo-engine\\client\\CJCommon\\CJCommon.s3mod",
+                  "G:\\repos\\eo-engine\\client\\MiniCJ\\MiniCJ.s3mod",
+                  "G:\\repos\\eo-engine\\client\\RealtimeCheck\\RealtimeCheck.s3mod"
+            ]
       },
       "saby-units": {
             "links": {
@@ -23,13 +81,5 @@
                   "G:/repos/fed-documentformats/client-adm/FEDFormatCP": ".client/FEDFormatCP",
                   "G:/repos/fed-documentformats/client-adm/FEDEngine": ".client/FEDEngine"
             }
-      },
-      "devDependencies": {
-            "@tensor-corp/eslint-config": "git+https://git.sbis.ru/sbis/eslint-config-tensor.git",
-            "eslint": "^5.1.0",
-            "saby-builder": "git+https://github.com/saby/builder.git#rc-21.3100",
-            "saby-typescript": "git+https://github.com/saby/TypeScript.git#rc-21.3100",
-            "saby-units": "git+https://github.com/saby/Units.git#rc-21.3100",
-            "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.3100"
       }
 }

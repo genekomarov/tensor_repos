@@ -1,8 +1,10 @@
+# webstorm
 /.idea/
 
+# node_modules
 /node_modules/
 
-/access-control/
+# repos
 /eo-core/
 /eo-employees/
 /eo-engine/
@@ -11,15 +13,20 @@
 /fed-documentformats/
 /fed-sbis-ru/
 /fed-specifications/
-/inside/
-/rmi/
 /sbis-engine/
-/sbis3controls/
-/types/
-/UI/
-/wasaby-app/
-/wasaby-controls/
+/saby-types/
+/saby-ui/
+/saby-wasaby-controls/
+/sbis-rmi/
+/sbis-sbis3controls/
+/sbis-sdn/
 
+# custom build
 /_build/
 
+# platform build
+/application/
+/build-ui/
+
+# other
 /package-lock.json

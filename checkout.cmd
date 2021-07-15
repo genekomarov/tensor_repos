@@ -8,8 +8,8 @@ set repos[2]=fed-core
 set repos[3]=fed-documentformats
 set repos[4]=eo-np
 set repos[5]=eo-employees
-set repos[6]=sbis3controls
-set repos[7]=wasaby-controls
+set repos[6]=sbis-sbis3controls
+set repos[7]=saby-wasaby-controls
 set repos[8]=eo-employees
 set reposCount=8
 
