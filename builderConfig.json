@@ -201,24 +201,24 @@
             "required": false
         },
         {
-            "name": "EngineUser",
-            "path": "G:\\repos\\sbis-engine\\client\\EngineUser",
-            "required": false
-        },
-        {
             "name": "SBIS3.CONTROLS",
             "path": "G:\\repos\\sbis-sbis3controls\\SBIS3.CONTROLS",
             "required": true
         },
         {
-            "name": "SbisFile",
-            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisFile",
+            "name": "EngineUser",
+            "path": "G:\\repos\\sbis-engine\\client\\EngineUser",
             "required": false
         },
         {
-            "name": "EngineUser-default-theme",
-            "path": "G:\\repos\\sbis-engine\\client\\EngineUser-default-theme",
-            "required": true
+            "name": "ExtControls",
+            "path": "G:\\repos\\sbis-engine\\client\\ExtControls",
+            "required": false
+        },
+        {
+            "name": "SbisFile",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisFile",
+            "required": false
         },
         {
             "name": "Controls-fed2-theme",
@@ -228,11 +228,6 @@
         {
             "name": "RichEditor",
             "path": "G:\\repos\\sbis-engine\\client\\RichEditor",
-            "required": false
-        },
-        {
-            "name": "ExtControls",
-            "path": "G:\\repos\\sbis-engine\\client\\ExtControls",
             "required": false
         },
         {
@@ -339,14 +334,6 @@
             "required": true
         },
         {
-            "name": "CJUnit",
-            "path": "G:\\repos\\eo-engine\\client\\CJUnit",
-            "required": false,
-            "minimize": false,
-            "deprecatedXhtml": false,
-            "wml": false
-        },
-        {
             "name": "Analytics",
             "path": "G:\\repos\\eo-np\\client\\Analytics",
             "required": true
@@ -419,13 +406,18 @@
             "required": true
         },
         {
-            "name": "SubtypeChecks",
-            "path": "G:\\repos\\fed-documentformats\\client\\SubtypeChecks",
+            "name": "FormatsList",
+            "path": "G:\\repos\\fed-documentformats\\client\\FormatsList",
             "required": true
         },
         {
             "name": "FEDEngine",
             "path": "G:\\repos\\fed-documentformats\\client-adm\\FEDEngine",
+            "required": true
+        },
+        {
+            "name": "SubtypeChecks",
+            "path": "G:\\repos\\fed-documentformats\\client\\SubtypeChecks",
             "required": true
         },
         {
@@ -456,11 +448,6 @@
         {
             "name": "FEDVisualisationCP",
             "path": "G:\\repos\\fed-documentformats\\client-adm\\FEDVisualisationCP",
-            "required": true
-        },
-        {
-            "name": "FormatsList",
-            "path": "G:\\repos\\fed-documentformats\\client-adm\\FormatsList",
             "required": true
         },
         {
@@ -633,9 +620,9 @@
             "required": false
         },
         {
-            "name": "Carousel-default-theme",
-            "path": "G:\\repos\\sbis-engine\\client\\Carousel-default-theme",
-            "required": true
+            "name": "CodeEditor",
+            "path": "G:\\repos\\sbis-engine\\client\\CodeEditor",
+            "required": false
         },
         {
             "name": "Controls-onlinenavigation-theme",
@@ -803,18 +790,8 @@
             "required": false
         },
         {
-            "name": "Printer-default-theme",
-            "path": "G:\\repos\\sbis-engine\\client\\Printer-default-theme",
-            "required": true
-        },
-        {
             "name": "ViewConfiguration",
             "path": "G:\\repos\\sbis-engine\\client\\ViewConfiguration",
-            "required": true
-        },
-        {
-            "name": "ViewConfiguration-default-theme",
-            "path": "G:\\repos\\sbis-engine\\client\\ViewConfiguration-default-theme",
             "required": true
         },
         {
