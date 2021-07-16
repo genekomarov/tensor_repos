@@ -20,6 +20,8 @@
 /sbis-rmi/
 /sbis-sbis3controls/
 /sbis-sdn/
+/saby-inferno/
+/sbis-permission/
 
 # custom build
 /_build/

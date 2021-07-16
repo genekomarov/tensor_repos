@@ -11,73 +11,8 @@
     "resourcesUrl": false,
     "modules": [
         {
-            "name": "CJ",
-            "path": "G:\\repos\\eo-engine\\client\\CJ",
-            "required": true
-        },
-        {
-            "name": "FED",
-            "path": "G:\\repos\\fed-core\\client\\FED",
-            "required": false
-        },
-        {
-            "name": "RichEditor",
-            "path": "G:\\repos\\sbis-engine\\client\\RichEditor",
-            "required": false
-        },
-        {
-            "name": "RealtimeCheck",
-            "path": "G:\\repos\\eo-engine\\client\\RealtimeCheck",
-            "required": true
-        },
-        {
-            "name": "CJCommon",
-            "path": "G:\\repos\\eo-engine\\client\\CJCommon",
-            "required": true
-        },
-        {
-            "name": "LongOperations",
-            "path": "G:\\repos\\sbis-engine\\client\\LongOperations",
-            "required": false
-        },
-        {
-            "name": "SBIS3.CONTROLS",
-            "path": "G:\\repos\\sbis-sbis3controls\\SBIS3.CONTROLS",
-            "required": true
-        },
-        {
-            "name": "Controls",
-            "path": "G:\\repos\\saby-wasaby-controls\\Controls",
-            "required": true
-        },
-        {
-            "name": "File",
-            "path": "G:\\repos\\sbis-rmi\\src\\client\\File",
-            "required": true
-        },
-        {
-            "name": "SbisFile",
-            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisFile",
-            "required": true
-        },
-        {
-            "name": "FEDSrv",
-            "path": "G:\\repos\\fed-core\\client\\FEDSrv",
-            "required": true
-        },
-        {
-            "name": "Types",
-            "path": "G:\\repos\\saby-types\\Types",
-            "required": true
-        },
-        {
-            "name": "Env",
-            "path": "G:\\repos\\sbis-rmi\\src\\client\\Env",
-            "required": true
-        },
-        {
-            "name": "Browser",
-            "path": "G:\\repos\\sbis-rmi\\src\\client\\Browser",
+            "name": "DispatchedReport",
+            "path": "G:\\repos\\eo-core\\client\\DispatchedReport",
             "required": true
         },
         {
@@ -86,8 +21,13 @@
             "required": true
         },
         {
-            "name": "Controls-default-theme",
-            "path": "G:\\repos\\saby-wasaby-controls\\Controls-default-theme",
+            "name": "Env",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\Env",
+            "required": true
+        },
+        {
+            "name": "WS.Core",
+            "path": "G:\\repos\\sbis-ws\\WS.Core",
             "required": true
         },
         {
@@ -96,8 +36,38 @@
             "required": true
         },
         {
-            "name": "TransportCore",
-            "path": "G:\\repos\\sbis-rmi\\src\\client\\TransportCore",
+            "name": "Application",
+            "path": "G:\\repos\\saby-wasaby-app\\src\\Application",
+            "required": true
+        },
+        {
+            "name": "I18n",
+            "path": "G:\\repos\\saby-i18n\\I18n",
+            "required": true
+        },
+        {
+            "name": "Types",
+            "path": "G:\\repos\\saby-types\\Types",
+            "required": true
+        },
+        {
+            "name": "WasabyLoader",
+            "path": "G:\\repos\\saby-wasaby-requirejs-loader\\WasabyLoader",
+            "required": true
+        },
+        {
+            "name": "Compiler",
+            "path": "G:\\repos\\saby-ui\\Compiler",
+            "required": true
+        },
+        {
+            "name": "UICore",
+            "path": "G:\\repos\\saby-ui\\UIInferno\\UICore",
+            "required": true
+        },
+        {
+            "name": "UICommon",
+            "path": "G:\\repos\\saby-ui\\UICommon",
             "required": true
         },
         {
@@ -111,6 +81,46 @@
             "required": true
         },
         {
+            "name": "RequireJsLoader",
+            "path": "G:\\repos\\saby-wasaby-requirejs-loader\\RequireJsLoader",
+            "required": true
+        },
+        {
+            "name": "View",
+            "path": "G:\\repos\\sbis-ws\\View",
+            "required": true
+        },
+        {
+            "name": "Vdom",
+            "path": "G:\\repos\\sbis-ws\\Vdom",
+            "required": true
+        },
+        {
+            "name": "Browser",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\Browser",
+            "required": true
+        },
+        {
+            "name": "Inferno",
+            "path": "G:\\repos\\saby-inferno\\Inferno",
+            "required": true
+        },
+        {
+            "name": "TransportCore",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\TransportCore",
+            "required": true
+        },
+        {
+            "name": "Controls",
+            "path": "G:\\repos\\saby-wasaby-controls\\Controls",
+            "required": true
+        },
+        {
+            "name": "Controls-default-theme",
+            "path": "G:\\repos\\saby-wasaby-controls\\Controls-default-theme",
+            "required": true
+        },
+        {
             "name": "EnvConfig",
             "path": "G:\\repos\\sbis-rmi\\src\\client\\EnvConfig",
             "required": true
@@ -121,13 +131,13 @@
             "required": true
         },
         {
-            "name": "ExtControls",
-            "path": "G:\\repos\\sbis-engine\\client\\ExtControls",
-            "required": false
+            "name": "EOComplect",
+            "path": "G:\\repos\\eo-core\\client\\EOComplect",
+            "required": true
         },
         {
-            "name": "EngineUser",
-            "path": "G:\\repos\\sbis-engine\\client\\EngineUser",
+            "name": "EOCore",
+            "path": "G:\\repos\\eo-core\\client\\EOCore",
             "required": false
         },
         {
@@ -136,8 +146,103 @@
             "required": true
         },
         {
+            "name": "FED",
+            "path": "G:\\repos\\fed-core\\client\\FED",
+            "required": false
+        },
+        {
+            "name": "FEDSrv",
+            "path": "G:\\repos\\fed-core\\client\\FEDSrv",
+            "required": true
+        },
+        {
+            "name": "File",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\File",
+            "required": false
+        },
+        {
+            "name": "ServiceUpdateNotifier",
+            "path": "G:\\repos\\sbis-engine\\client\\ServiceUpdateNotifier",
+            "required": false
+        },
+        {
+            "name": "FED2UI",
+            "path": "G:\\repos\\fed-core\\client\\FED2UI",
+            "required": true
+        },
+        {
+            "name": "FEDDocumentController",
+            "path": "G:\\repos\\fed-core\\client\\FEDDocumentController",
+            "required": true
+        },
+        {
+            "name": "CJ",
+            "path": "G:\\repos\\eo-engine\\client\\CJ",
+            "required": true
+        },
+        {
+            "name": "MiniCJ",
+            "path": "G:\\repos\\eo-engine\\client\\MiniCJ",
+            "required": true
+        },
+        {
+            "name": "CJCommon",
+            "path": "G:\\repos\\eo-engine\\client\\CJCommon",
+            "required": true
+        },
+        {
+            "name": "RealtimeCheck",
+            "path": "G:\\repos\\eo-engine\\client\\RealtimeCheck",
+            "required": true
+        },
+        {
+            "name": "LongOperations",
+            "path": "G:\\repos\\sbis-engine\\client\\LongOperations",
+            "required": false
+        },
+        {
+            "name": "EngineUser",
+            "path": "G:\\repos\\sbis-engine\\client\\EngineUser",
+            "required": false
+        },
+        {
+            "name": "SBIS3.CONTROLS",
+            "path": "G:\\repos\\sbis-sbis3controls\\SBIS3.CONTROLS",
+            "required": true
+        },
+        {
+            "name": "SbisFile",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisFile",
+            "required": false
+        },
+        {
+            "name": "EngineUser-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\EngineUser-default-theme",
+            "required": true
+        },
+        {
+            "name": "Controls-fed2-theme",
+            "path": "G:\\repos\\fed-core\\client\\Controls-fed2-theme",
+            "required": true
+        },
+        {
+            "name": "RichEditor",
+            "path": "G:\\repos\\sbis-engine\\client\\RichEditor",
+            "required": false
+        },
+        {
+            "name": "ExtControls",
+            "path": "G:\\repos\\sbis-engine\\client\\ExtControls",
+            "required": false
+        },
+        {
             "name": "Layout",
             "path": "G:\\repos\\sbis-engine\\client\\Layout",
+            "required": false
+        },
+        {
+            "name": "Permission",
+            "path": "G:\\repos\\sbis-permission\\client\\Permission",
             "required": false
         },
         {
@@ -151,14 +256,872 @@
             "required": true
         },
         {
-            "name": "MiniCJ",
-            "path": "G:\\repos\\eo-engine\\client\\MiniCJ",
+            "name": "EOCoreUnit",
+            "path": "G:\\repos\\eo-core\\client\\EOCoreUnit",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "EOEmployees",
+            "path": "G:\\repos\\eo-employees\\client\\EOEmployees",
             "required": true
+        },
+        {
+            "name": "EOFSRAR",
+            "path": "G:\\repos\\eo-employees\\client\\EOFSRAR",
+            "required": true
+        },
+        {
+            "name": "EORussia",
+            "path": "G:\\repos\\eo-np\\client\\EORussia",
+            "required": true
+        },
+        {
+            "name": "EO",
+            "path": "G:\\repos\\eo-np\\client\\EO",
+            "required": true
+        },
+        {
+            "name": "PopupNotifications",
+            "path": "G:\\repos\\sbis-engine\\client\\PopupNotifications",
+            "required": false
+        },
+        {
+            "name": "WS3Page",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3Page",
+            "required": false
+        },
+        {
+            "name": "EOPFR2",
+            "path": "G:\\repos\\eo-employees\\client\\EOPFR2",
+            "required": true
+        },
+        {
+            "name": "EngineLink",
+            "path": "G:\\repos\\sbis-engine\\client\\EngineLink",
+            "required": false
+        },
+        {
+            "name": "WS3Browser",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3Browser",
+            "required": false
+        },
+        {
+            "name": "WS3MiniCard",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3MiniCard",
+            "required": false
+        },
+        {
+            "name": "EOCommons",
+            "path": "G:\\repos\\eo-np\\client\\EOCommons",
+            "required": true
+        },
+        {
+            "name": "EORussia2",
+            "path": "G:\\repos\\eo-np\\client\\EORussia2",
+            "required": true
+        },
+        {
+            "name": "EOMVD",
+            "path": "G:\\repos\\eo-employees\\client\\EOMVD",
+            "required": true
+        },
+        {
+            "name": "WS.Deprecated",
+            "path": "G:\\repos\\sbis-ws\\WS.Deprecated",
+            "required": false
+        },
+        {
+            "name": "EOPFR",
+            "path": "G:\\repos\\eo-employees\\client\\EOPFR",
+            "required": true
+        },
+        {
+            "name": "CJUnit",
+            "path": "G:\\repos\\eo-engine\\client\\CJUnit",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "Analytics",
+            "path": "G:\\repos\\eo-np\\client\\Analytics",
+            "required": true
+        },
+        {
+            "name": "EOArchive",
+            "path": "G:\\repos\\eo-np\\client\\EOArchive",
+            "required": true
+        },
+        {
+            "name": "EOLetter2",
+            "path": "G:\\repos\\eo-np\\client\\EOLetter2",
+            "required": true
+        },
+        {
+            "name": "TaxCalendar",
+            "path": "G:\\repos\\eo-np\\client\\TaxCalendar",
+            "required": false
+        },
+        {
+            "name": "CheckXML",
+            "path": "G:\\repos\\fed-core\\client\\CheckXML",
+            "required": true
+        },
+        {
+            "name": "FED-demo",
+            "path": "G:\\repos\\fed-core\\client\\FED-demo",
+            "required": false
+        },
+        {
+            "name": "SelectDocType",
+            "path": "G:\\repos\\fed-core\\client\\SelectDocType",
+            "required": false
+        },
+        {
+            "name": "FED2SrvUnit",
+            "path": "G:\\repos\\fed-core\\client\\tests\\FED2SrvUnit",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "FED2UIUnit",
+            "path": "G:\\repos\\fed-core\\client\\tests\\FED2UIUnit",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "FEDSrvUnit",
+            "path": "G:\\repos\\fed-core\\client\\tests\\FEDSrvUnit",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "FEDUnit",
+            "path": "G:\\repos\\fed-core\\client\\tests\\FEDUnit",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "Mocks",
+            "path": "G:\\repos\\fed-core\\client\\tests\\Mocks",
+            "required": true
+        },
+        {
+            "name": "SubtypeChecks",
+            "path": "G:\\repos\\fed-documentformats\\client\\SubtypeChecks",
+            "required": true
+        },
+        {
+            "name": "FEDEngine",
+            "path": "G:\\repos\\fed-documentformats\\client-adm\\FEDEngine",
+            "required": true
+        },
+        {
+            "name": "XMLEditor",
+            "path": "G:\\repos\\fed-documentformats\\client\\XMLEditor",
+            "required": true
+        },
+        {
+            "name": "FEDControlPanel",
+            "path": "G:\\repos\\fed-documentformats\\client-adm\\FEDControlPanel",
+            "required": true
+        },
+        {
+            "name": "Graphs",
+            "path": "G:\\repos\\sbis-engine\\client\\Graphs",
+            "required": false
+        },
+        {
+            "name": "Clipboard",
+            "path": "G:\\repos\\sbis-engine\\client\\Clipboard",
+            "required": false
+        },
+        {
+            "name": "FEDFormatCP",
+            "path": "G:\\repos\\fed-documentformats\\client-adm\\FEDFormatCP",
+            "required": true
+        },
+        {
+            "name": "FEDVisualisationCP",
+            "path": "G:\\repos\\fed-documentformats\\client-adm\\FEDVisualisationCP",
+            "required": true
+        },
+        {
+            "name": "FormatsList",
+            "path": "G:\\repos\\fed-documentformats\\client-adm\\FormatsList",
+            "required": true
+        },
+        {
+            "name": "FedSbisRu",
+            "path": "G:\\repos\\fed-sbis-ru\\proxy-sbis-ru\\client\\FedSbisRu",
+            "required": false
+        },
+        {
+            "name": "ProxySbisRu",
+            "path": "G:\\repos\\fed-sbis-ru\\proxy-sbis-ru\\client\\ProxySbisRu",
+            "required": true
+        },
+        {
+            "name": "HelpFilling",
+            "path": "G:\\repos\\fed-specifications\\client\\HelpFilling",
+            "required": true
+        },
+        {
+            "name": "Specs",
+            "path": "G:\\repos\\fed-specifications\\client\\Specs",
+            "required": true
+        },
+        {
+            "name": "SpecsLib",
+            "path": "G:\\repos\\fed-specifications\\client\\SpecsLib",
+            "required": true
+        },
+        {
+            "name": "I18nTest",
+            "path": "G:\\repos\\saby-i18n\\I18nTest",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "TypesUnit",
+            "path": "G:\\repos\\saby-types\\TypesUnit",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "Markup",
+            "path": "G:\\repos\\saby-ui\\Markup",
+            "required": false
+        },
+        {
+            "name": "TextMarkup",
+            "path": "G:\\repos\\saby-ui\\TextMarkup",
+            "required": false
+        },
+        {
+            "name": "UIDemo",
+            "path": "G:\\repos\\saby-ui\\UIDemo",
+            "required": true
+        },
+        {
+            "name": "UIDemo-default-theme",
+            "path": "G:\\repos\\saby-ui\\UIDemo-default-theme",
+            "required": true
+        },
+        {
+            "name": "ReactUnitTest",
+            "path": "G:\\repos\\saby-ui\\UIInferno\\ReactUnitTest",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "UITest",
+            "path": "G:\\repos\\saby-ui\\UITest",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "VirtualDom",
+            "path": "G:\\repos\\saby-ui\\VirtualDom",
+            "required": false
+        },
+        {
+            "name": "VirtualTreeMarkup",
+            "path": "G:\\repos\\saby-ui\\VirtualTreeMarkup",
+            "required": false
+        },
+        {
+            "name": "WmlBuilder",
+            "path": "G:\\repos\\saby-ui\\WmlBuilder",
+            "required": false
+        },
+        {
+            "name": "AppUnit",
+            "path": "G:\\repos\\saby-wasaby-app\\test\\AppUnit",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "AppBootstrapDemo",
+            "path": "G:\\repos\\saby-wasaby-app\\test\\Integration\\AppBootstrapDemo",
+            "required": true
+        },
+        {
+            "name": "ApplicationDemo",
+            "path": "G:\\repos\\saby-wasaby-app\\test\\Integration\\ApplicationDemo",
+            "required": true
+        },
+        {
+            "name": "Controls-demo",
+            "path": "G:\\repos\\saby-wasaby-controls\\Controls-demo",
+            "required": false
         },
         {
             "name": "DemoStand",
             "path": "G:\\repos\\saby-wasaby-controls\\DemoStand",
             "required": false
+        },
+        {
+            "name": "ControlsUnit",
+            "path": "G:\\repos\\saby-wasaby-controls\\tests\\ControlsUnit",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "RequireJsLoaderUnit",
+            "path": "G:\\repos\\saby-wasaby-requirejs-loader\\RequireJsLoaderUnit",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "WasabyLoaderUnit",
+            "path": "G:\\repos\\saby-wasaby-requirejs-loader\\WasabyLoaderUnit",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "Animation",
+            "path": "G:\\repos\\sbis-engine\\client\\Animation",
+            "required": true
+        },
+        {
+            "name": "Calculator",
+            "path": "G:\\repos\\sbis-engine\\client\\Calculator",
+            "required": true
+        },
+        {
+            "name": "Keyboard",
+            "path": "G:\\repos\\sbis-engine\\client\\Keyboard",
+            "required": true
+        },
+        {
+            "name": "Calculator-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Calculator-default-theme",
+            "required": false
+        },
+        {
+            "name": "Carousel",
+            "path": "G:\\repos\\sbis-engine\\client\\Carousel",
+            "required": false
+        },
+        {
+            "name": "Carousel-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Carousel-default-theme",
+            "required": true
+        },
+        {
+            "name": "Controls-onlinenavigation-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Controls-onlinenavigation-theme",
+            "required": false
+        },
+        {
+            "name": "DateRange",
+            "path": "G:\\repos\\sbis-engine\\client\\DateRange",
+            "required": false
+        },
+        {
+            "name": "DateRange-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\DateRange-default-theme",
+            "required": false
+        },
+        {
+            "name": "DocsEditor",
+            "path": "G:\\repos\\sbis-engine\\client\\DocsEditor",
+            "required": false
+        },
+        {
+            "name": "Emotions",
+            "path": "G:\\repos\\sbis-engine\\client\\Emotions",
+            "required": false
+        },
+        {
+            "name": "Emotions-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Emotions-default-theme",
+            "required": true
+        },
+        {
+            "name": "Engine-demo",
+            "path": "G:\\repos\\sbis-engine\\client\\Engine-demo",
+            "required": false
+        },
+        {
+            "name": "ExtControls-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\ExtControls-default-theme",
+            "required": false
+        },
+        {
+            "name": "Graphs-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Graphs-default-theme",
+            "required": true
+        },
+        {
+            "name": "Headers",
+            "path": "G:\\repos\\sbis-engine\\client\\Headers",
+            "required": false
+        },
+        {
+            "name": "Headers-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Headers-default-theme",
+            "required": true
+        },
+        {
+            "name": "Wizard",
+            "path": "G:\\repos\\sbis-engine\\client\\Wizard",
+            "required": true
+        },
+        {
+            "name": "Keyboard-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Keyboard-default-theme",
+            "required": false
+        },
+        {
+            "name": "Hint-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Hint-default-theme",
+            "required": true
+        },
+        {
+            "name": "Hint-onlinenavigation-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Hint-onlinenavigation-theme",
+            "required": true
+        },
+        {
+            "name": "Merge",
+            "path": "G:\\repos\\sbis-engine\\client\\Merge",
+            "required": true
+        },
+        {
+            "name": "Merge-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Merge-default-theme",
+            "required": true
+        },
+        {
+            "name": "LongOperations-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\LongOperations-default-theme",
+            "required": false
+        },
+        {
+            "name": "Name",
+            "path": "G:\\repos\\sbis-engine\\client\\Name",
+            "required": true
+        },
+        {
+            "name": "Name-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Name-default-theme",
+            "required": true
+        },
+        {
+            "name": "EngineLanguage",
+            "path": "G:\\repos\\sbis-engine\\client\\EngineLanguage",
+            "required": false
+        },
+        {
+            "name": "UserStatus",
+            "path": "G:\\repos\\sbis-engine\\client\\UserStatus",
+            "required": false
+        },
+        {
+            "name": "Summation",
+            "path": "G:\\repos\\sbis-engine\\client\\Summation",
+            "required": true
+        },
+        {
+            "name": "Summation-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Summation-default-theme",
+            "required": true
+        },
+        {
+            "name": "Wizard-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Wizard-default-theme",
+            "required": true
+        },
+        {
+            "name": "RichEditor-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\RichEditor-default-theme",
+            "required": true
+        },
+        {
+            "name": "Export",
+            "path": "G:\\repos\\sbis-engine\\client\\Export",
+            "required": true
+        },
+        {
+            "name": "Export-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Export-default-theme",
+            "required": true
+        },
+        {
+            "name": "Import",
+            "path": "G:\\repos\\sbis-engine\\client\\Import",
+            "required": true
+        },
+        {
+            "name": "Import-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Import-default-theme",
+            "required": true
+        },
+        {
+            "name": "KanbanBase",
+            "path": "G:\\repos\\sbis-engine\\client\\KanbanBase",
+            "required": true
+        },
+        {
+            "name": "KanbanBase-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\KanbanBase-default-theme",
+            "required": false
+        },
+        {
+            "name": "Printer",
+            "path": "G:\\repos\\sbis-engine\\client\\Printer",
+            "required": false
+        },
+        {
+            "name": "Printer-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\Printer-default-theme",
+            "required": true
+        },
+        {
+            "name": "ViewConfiguration",
+            "path": "G:\\repos\\sbis-engine\\client\\ViewConfiguration",
+            "required": true
+        },
+        {
+            "name": "ViewConfiguration-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\ViewConfiguration-default-theme",
+            "required": true
+        },
+        {
+            "name": "StylesConfiguration",
+            "path": "G:\\repos\\sbis-engine\\client\\StylesConfiguration",
+            "required": false
+        },
+        {
+            "name": "SiteEditorBase",
+            "path": "G:\\repos\\sbis-engine\\client\\SiteEditorBase",
+            "required": false
+        },
+        {
+            "name": "TextEditor",
+            "path": "G:\\repos\\sbis-engine\\client\\TextEditor",
+            "required": false
+        },
+        {
+            "name": "MassEditing",
+            "path": "G:\\repos\\sbis-engine\\client\\MassEditing",
+            "required": true
+        },
+        {
+            "name": "MassEditing-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\MassEditing-default-theme",
+            "required": true
+        },
+        {
+            "name": "ExpandableCollection",
+            "path": "G:\\repos\\sbis-engine\\client\\ExpandableCollection",
+            "required": false
+        },
+        {
+            "name": "ExpandableCollection-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\ExpandableCollection-default-theme",
+            "required": false
+        },
+        {
+            "name": "Guest",
+            "path": "G:\\repos\\sbis-engine\\client\\Guest",
+            "required": false
+        },
+        {
+            "name": "IEMedia",
+            "path": "G:\\repos\\sbis-engine\\client\\IEMedia",
+            "required": false
+        },
+        {
+            "name": "WS3ColumnsEditor",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3ColumnsEditor",
+            "required": false
+        },
+        {
+            "name": "WS3DialogAction",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3DialogAction",
+            "required": false
+        },
+        {
+            "name": "WS3ExpandPanel",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3ExpandPanel",
+            "required": false
+        },
+        {
+            "name": "WS3ExportPresets",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3ExportPresets",
+            "required": false
+        },
+        {
+            "name": "WS3Header",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3Header",
+            "required": false
+        },
+        {
+            "name": "WS3LinkProcessor",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3LinkProcessor",
+            "required": false
+        },
+        {
+            "name": "WS3NavigationPanel",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3NavigationPanel",
+            "required": false
+        },
+        {
+            "name": "WS3ReportFilter",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3ReportFilter",
+            "required": false
+        },
+        {
+            "name": "WS3RoutesMessage",
+            "path": "G:\\repos\\sbis-engine\\client\\Old\\WS3RoutesMessage",
+            "required": false
+        },
+        {
+            "name": "OnlinePage",
+            "path": "G:\\repos\\sbis-engine\\client\\OnlinePage",
+            "required": false
+        },
+        {
+            "name": "Previewer",
+            "path": "G:\\repos\\sbis-engine\\client\\Previewer",
+            "required": false
+        },
+        {
+            "name": "RichEditorImage",
+            "path": "G:\\repos\\sbis-engine\\client\\RichEditorImage",
+            "required": false
+        },
+        {
+            "name": "SiteEditorBase-default-theme",
+            "path": "G:\\repos\\sbis-engine\\client\\SiteEditorBase-default-theme",
+            "required": true
+        },
+        {
+            "name": "Superbundles",
+            "path": "G:\\repos\\sbis-engine\\client\\Superbundles",
+            "required": true
+        },
+        {
+            "name": "TestDevTools",
+            "path": "G:\\repos\\sbis-engine\\client\\TestDevTools",
+            "required": false
+        },
+        {
+            "name": "Unload",
+            "path": "G:\\repos\\sbis-engine\\client\\Unload",
+            "required": false
+        },
+        {
+            "name": "Upload",
+            "path": "G:\\repos\\sbis-engine\\client\\Upload",
+            "required": true
+        },
+        {
+            "name": "EngineUnit",
+            "path": "G:\\repos\\sbis-engine\\test\\EngineUnit",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "Permission-demo",
+            "path": "G:\\repos\\sbis-permission\\client\\Permission-demo",
+            "required": false
+        },
+        {
+            "name": "PermissionUnit",
+            "path": "G:\\repos\\sbis-permission\\tests\\unit\\PermissionUnit",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "File-demo",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\File-demo",
+            "required": false
+        },
+        {
+            "name": "SbisEnvUI-demo",
+            "path": "G:\\repos\\sbis-rmi\\src\\client\\SbisEnvUI-demo",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "BrowserTest",
+            "path": "G:\\repos\\sbis-rmi\\tests\\unit\\BrowserTest",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "EnvTest",
+            "path": "G:\\repos\\sbis-rmi\\tests\\unit\\EnvTest",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "FileTest",
+            "path": "G:\\repos\\sbis-rmi\\tests\\unit\\FileTest",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "ParametersWebAPITest",
+            "path": "G:\\repos\\sbis-rmi\\tests\\unit\\ParametersWebAPITest",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "SbisEnvTest",
+            "path": "G:\\repos\\sbis-rmi\\tests\\unit\\SbisEnvTest",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "SbisEnvUITest",
+            "path": "G:\\repos\\sbis-rmi\\tests\\unit\\SbisEnvUITest",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "SbisFileTest",
+            "path": "G:\\repos\\sbis-rmi\\tests\\unit\\SbisFileTest",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "Examples",
+            "path": "G:\\repos\\sbis-sbis3controls\\Examples",
+            "required": false
+        },
+        {
+            "name": "SBIS3CONTROLSUnit",
+            "path": "G:\\repos\\sbis-sbis3controls\\tests\\SBIS3CONTROLSUnit",
+            "required": false,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
+        },
+        {
+            "name": "AceEditor",
+            "path": "G:\\repos\\sbis-sdn\\AceEditor",
+            "required": false
+        },
+        {
+            "name": "CommonHelpPerson",
+            "path": "G:\\repos\\sbis-sdn\\CommonHelpPerson",
+            "required": true
+        },
+        {
+            "name": "DeprecatedRC",
+            "path": "G:\\repos\\sbis-sdn\\DeprecatedRC",
+            "required": false
+        },
+        {
+            "name": "HelpPersonDima",
+            "path": "G:\\repos\\sbis-sdn\\HelpPersonDima",
+            "required": true
+        },
+        {
+            "name": "HelpPersonEugene",
+            "path": "G:\\repos\\sbis-sdn\\HelpPersonEugene",
+            "required": true
+        },
+        {
+            "name": "HelpPersonLara",
+            "path": "G:\\repos\\sbis-sdn\\HelpPersonLara",
+            "required": true
+        },
+        {
+            "name": "HelpPersonLeonid",
+            "path": "G:\\repos\\sbis-sdn\\HelpPersonLeonid",
+            "required": true
+        },
+        {
+            "name": "HelpPersonNP",
+            "path": "G:\\repos\\sbis-sdn\\HelpPersonNP",
+            "required": true
+        },
+        {
+            "name": "PaperJS",
+            "path": "G:\\repos\\sbis-sdn\\PaperJS",
+            "required": false
+        },
+        {
+            "name": "SabyLogo",
+            "path": "G:\\repos\\sbis-sdn\\SabyLogo",
+            "required": false
+        },
+        {
+            "name": "SabyMan",
+            "path": "G:\\repos\\sbis-sdn\\SabyMan",
+            "required": false
+        },
+        {
+            "name": "Demo",
+            "path": "G:\\repos\\sbis-ws\\Demo",
+            "required": true
+        },
+        {
+            "name": "WSTests",
+            "path": "G:\\repos\\sbis-ws\\test\\WSTests",
+            "required": true
+        },
+        {
+            "name": "WSUnit",
+            "path": "G:\\repos\\sbis-ws\\test\\WSUnit",
+            "required": true,
+            "minimize": false,
+            "deprecatedXhtml": false,
+            "wml": false
         },
         {
             "name": "cdn",

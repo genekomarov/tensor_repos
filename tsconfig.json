@@ -9,16 +9,15 @@
     "types" : ["requirejs"],
     "paths": {
       "*": ["*",
-        "./wasaby-controls/*",
-        "./types/*",
-        "./UI/*",
-        "./rmi/src/client/*",
-        "./access-control/client/*",
-        "./fed-core/client/*",
-        "./sbis-engine/client/*",
         "./eo-engine/client/*",
         "./eo-core/client/*",
-        "./wasaby-app/src/*"
+        "./fed-core/client/*",
+        "./saby-wasaby-controls/*",
+        "./saby-types/*",
+        "./saby-ui/*",
+        "./sbis-rmi/src/client/*",
+        "./sbis-engine/client/*",
+        "./saby-wasaby-app/src/*"
       ]
     }
   },
