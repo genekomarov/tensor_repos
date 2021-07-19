@@ -22,6 +22,10 @@
 /sbis-sdn/
 /saby-inferno/
 /sbis-permission/
+/saby-i18n/
+/saby-wasaby-app/
+/saby-wasaby-requirejs-loader/
+/sbis-ws/
 
 # custom build
 /_build/
