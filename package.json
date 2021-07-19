@@ -46,6 +46,7 @@
       },
       "devDependencies": {
             "@tensor-corp/eslint-config": "git+https://git.sbis.ru/sbis/eslint-config-tensor.git",
+            "@types/mocha": "^8.2.3",
             "eslint": "^5.1.0",
             "saby-builder": "git+https://github.com/saby/builder.git#rc-21.5000",
             "saby-typescript": "git+https://github.com/saby/TypeScript.git#rc-21.5000",
