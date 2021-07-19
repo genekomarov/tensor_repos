@@ -7,6 +7,8 @@
             "build:all__CJ_RTC_Complect": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__CJ_RTC_Complect.json",
             "build:all__DocumentFormats": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__DocumentFormats.json",
             "build:all__Platform": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__Platform.json",
+            "------wasaby init---": "",
+            "wasaby-cli:init-store": "wasaby-cli --tasks=initStore",
             "------wasaby build---": "",
             "wasaby-cli:build": "wasaby-cli --tasks=build",
             "wasaby-cli:build-watch": "wasaby-cli --tasks=build --watcher",
@@ -19,29 +21,14 @@
             "------checkout---": "",
             "checkout": "start checkout.cmd",
             "------clone others---": "",
-            "clone:eo-core": "git clone git@git.sbis.ru:eo/core.git eo-core",
-            "clone:eo-employees": "git clone git@git.sbis.ru:eo/employees.git eo-employees",
             "clone:eo-engine": "git clone git@git.sbis.ru:eo/engine.git eo-engine",
-            "clone:eo-np": "git clone git@git.sbis.ru:eo/np.git eo-np",
+            "clone:eo-core": "git clone git@git.sbis.ru:eo/core.git eo-core",
             "clone:fed-core": "git clone git@git.sbis.ru:fed/core.git fed-core",
             "clone:fed-documentformats": "git clone git@git.sbis.ru:fed/documentformats.git fed-documentformats",
+            "clone:eo-employees": "git clone git@git.sbis.ru:eo/employees.git eo-employees",
+            "clone:eo-np": "git clone git@git.sbis.ru:eo/np.git eo-np",
             "clone:fed-specifications": "git clone git@git.sbis.ru:fed/specifications.git fed-specifications",
             "clone:fed-sbis-ru": "git clone git@git.sbis.ru:fed/sbis-ru.git fed-sbis-ru",
-            "------clone store---": "",
-            "clone:sbis-engine": "git clone git@git.sbis.ru:sbis/engine.git sbis-engine",
-            "clone:sbis-sbis3controls": "git clone git@git.sbis.ru:sbis/sbis3controls.git sbis-sbis3controls",
-            "clone:saby-wasaby-controls": "git clone https://github.com/saby/wasaby-controls.git saby-wasaby-controls",
-            "clone:saby-ui": "git clone http://platform-git.sbis.ru/saby/ui.git saby-ui",
-            "clone:sbis-rmi": "git clone git@git.sbis.ru:sbis/rmi.git sbis-rmi",
-            "clone:saby-types": "git clone http://platform-git.sbis.ru/saby/types.git saby-types",
-            "clone:sbis-sdn": "git clone https://git.sbis.ru/sbis/cdn.git sbis-sdn",
-            "clone:sbis-ws": "git clone https://git.sbis.ru/sbis/ws.git sbis-ws",
-            "clone:saby-wasaby-app": "git clone https://github.com/saby/wasaby-app saby-wasaby-app",
-            "clone:saby-i18n": "git clone https://github.com/saby/i18n saby-i18n",
-            "clone:saby-wasaby-requirejs-loader": "git clone https://platform-git.sbis.ru/saby/wasaby-requirejs-loader/ saby-wasaby-requirejs-loader.git",
-            "clone:sbis-permission": "git clone https://git.sbis.ru/sbis/permission.git sbis-permission",
-            "clone:saby-inferno": "git clone https://github.com/saby/inferno.git saby-inferno",
-            "------custom build---": "",
             "build:units": "saby-units --install"
       },
       "devDependencies": {
@@ -54,7 +41,14 @@
             "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.4000"
       },
       "wasaby-cli": {
+            "entry": [
+                  "G:\\repos\\eo-engine\\client\\CJ\\CJ.s3mod",
+                  "G:\\repos\\eo-engine\\client\\CJCommon\\CJCommon.s3mod",
+                  "G:\\repos\\eo-engine\\client\\MiniCJ\\MiniCJ.s3mod",
+                  "G:\\repos\\eo-engine\\client\\RealtimeCheck\\RealtimeCheck.s3mod"
+            ],
             "repositories": {
+                  "saby-wasaby-controls": "https://github.com/saby/wasaby-controls.git",
                   "eo-core": ".eo-core",
                   "eo-employees": ".eo-employees",
                   "eo-engine": ".eo-engine",
@@ -62,38 +56,12 @@
                   "fed-core": ".fed-core",
                   "fed-documentformats": ".fed-documentformats",
                   "fed-specifications": ".fed-specifications",
-                  "fed-sbis-ru": ".fed-sbis-ru",
-                  "sbis-engine": ".sbis-engine",
-                  "sbis-sbis3controls": ".sbis-sbis3controls",
-                  "saby-wasaby-controls": ".saby-wasaby-controls",
-                  "saby-ui": ".saby-ui",
-                  "sbis-rmi": ".sbis-rmi",
-                  "saby-types": ".saby-types",
-                  "sbis-sdn": ".sbis-sdn",
-                  "sbis-ws": ".sbis-ws",
-                  "saby-wasaby-app": ".saby-wasaby-app",
-                  "saby-i18n": ".saby-i18n",
-                  "saby-wasaby-requirejs-loader": ".saby-wasaby-requirejs-loader",
-                  "sbis-permission": ".sbis-permission",
-                  "saby-inferno": ".saby-inferno"
+                  "fed-sbis-ru": ".fed-sbis-ru"
             }
       },
       "saby-units": {
             "links": {
-                  "G:/repos/eo-engine/client/CJ": ".client/CJ",
-                  "G:/repos/eo-engine/client/MiniCJ": ".client/MiniCJ",
-                  "G:/repos/eo-engine/client/RealtimeCheck": ".client/RealtimeCheck",
-                  "G:/repos/eo-core/client/EOComplect": ".client/EOComplect",
-                  "G:/repos/fed-core/client/FED2Srv": ".client/FED2Srv",
-                  "G:/repos/wasaby-controls(21.)/Controls": ".client/Controls",
-                  "G:/repos/wasaby-controls(21.)/Controls-default-theme": ".client/Controls-default-theme",
-                  "G:/repos/types/Types": ".client/Types",
-                  "G:/repos/UI/UI": ".client/UI",
-                  "G:/repos/rmi/src/client/Browser": ".client/Browser",
-                  "G:/repos/rmi/src/client/Env": ".client/Env",
-                  "G:/repos/fed-documentformats/client-adm/FEDControlPanel": ".client/FEDControlPanel",
-                  "G:/repos/fed-documentformats/client-adm/FEDFormatCP": ".client/FEDFormatCP",
-                  "G:/repos/fed-documentformats/client-adm/FEDEngine": ".client/FEDEngine"
+                  "node_modules/wasaby-controls/Controls": "Controls"
             }
       }
 }
