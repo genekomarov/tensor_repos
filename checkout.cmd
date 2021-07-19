@@ -21,12 +21,12 @@ set repos[14]=saby-wasaby-requirejs-loader
 set repos[15]=sbis-permission
 set repos[16]=saby-inferno
 
-set repos[16]=eo-employees
-set repos[17]=eo-np
-set repos[18]=fed-specifications
-set repos[19]=fed-sbis-ru
+set repos[17]=eo-employees
+set repos[18]=eo-np
+set repos[19]=fed-specifications
+set repos[20]=fed-sbis-ru
 
-set reposCount=19
+set reposCount=20
 
 rem commands
 set comands[0]=all
@@ -37,10 +37,10 @@ set comands[4]=pl
 set comandsCount=4
 
 rem relations
-set all=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+set all=0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20
 set rt=0 1 2
 set df=3
-set eo=16 17 18 19
+set eo=17 18 19 20
 set pl=4 5 6 7 8 9 10 11 12 13 14 15 16
 
 echo Avaliable repositories:
