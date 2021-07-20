@@ -1,6 +1,6 @@
 {
       "name": "repos",
-      "version": "21.4100.0",
+      "version": "21.3100.0",
       "description": "Обертка над используемыми репозиториями",
       "scripts": {
             "------custom build---": "",
@@ -9,8 +9,8 @@
             "build:all__Platform": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__Platform.json",
             "------wasaby init---": "",
             "wasaby-cli:init-store": "wasaby-cli --tasks=initStore",
-            "wasaby-cli:init-store:3100": "npm version 21.3100.0 -f && wasaby-cli --tasks=initStore",
-            "wasaby-cli:init-store:4100": "npm version 21.4100.0 -f && wasaby-cli --tasks=initStore",
+            "wasaby-cli:init-store:3100": "npm version 21.3100.0 -f || wasaby-cli --tasks=initStore",
+            "wasaby-cli:init-store:4100": "npm version 21.4100.0 -f || wasaby-cli --tasks=initStore",
             "------wasaby build---": "",
             "wasaby-cli:build": "wasaby-cli --tasks=build",
             "wasaby-cli:build-watch": "wasaby-cli --tasks=build --watcher",
