@@ -1,0 +1,23 @@
+{
+    "moduleType": "amd",
+    "root": "application",
+    "patchedRequire": true,
+    "report": "application/artifacts/repos_node/xunit-report.xml",
+    "htmlCoverageReport": "./artifacts/repos_node/coverage/index.html",
+    "jsonCoverageReport": "./artifacts/repos_node/coverage.json",
+    "url": {
+        "port": 41814
+    },
+    "tests": [
+        "CJUnit"
+    ],
+    "ignoreLeaks": true,
+    "nyc": {
+        "include": [
+            "CJ/**/*.js"
+        ],
+        "reportDir": "./artifacts/repos_node",
+        "cwd": "G:\\repos\\application",
+        "report": "html"
+    }
+}
