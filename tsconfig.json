@@ -9,15 +9,15 @@
     "types" : ["requirejs"],
     "paths": {
       "*": ["*",
-        "./eo-engine/client/*",
-        "./eo-core/client/*",
-        "./fed-core/client/*",
-        "./saby-wasaby-controls/*",
-        "./saby-types/*",
-        "./saby-ui/*",
-        "./sbis-rmi/src/client/*",
-        "./sbis-engine/client/*",
-        "./saby-wasaby-app/src/*"
+        "eo-engine/client/*",
+        "eo-core/client/*",
+        "fed-core/client/*",
+        "node_modules/wasaby-cli/store/_repos/fed-core/client/*",
+        "node_modules/wasaby-cli/store/_repos/saby-wasaby-controls/*",
+        "node_modules/wasaby-cli/store/_repos/saby-types/*",
+        "node_modules/wasaby-cli/store/_repos/saby-ui/*",
+        "node_modules/wasaby-cli/store/_repos/sbis-rmi/src/client/*",
+        "node_modules/wasaby-cli/store/_repos/sbis-engine/client/*"
       ]
     }
   },

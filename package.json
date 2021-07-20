@@ -13,7 +13,7 @@
             "------tests---": "",
             "test:node": "npx wasaby-cli %NODE_DEBUG_OPTION% --tasks=startTest --node --report=console",
             "test:node:eo-engine": "cd eo-engine/client && npm run test:node",
-            "test:custom": "node node_modules\\wasaby-cli\\node_modules\\saby-units\\mocha -t 10000 node_modules\\wasaby-cli\\node_modules\\saby-units\\cli\\isolated --configUnits=testConfig_custom.json   --rc=rc-21.3100 --workDir=G:\\repos\n\\application --gitMirror=platform-git.sbis.ru --only --node --store=G:\\repos\\node_modules\\wasaby-cli\\store\\_repos --workspace=G:\\repos\\application --builderCache=./build-ui/builder-json-cache --buildTools=builder --resources=G:\\repo\ns\\application",
+            "test:custom": "node node_modules/wasaby-cli/node_modules/saby-units/mocha -t 10000 node_modules/wasaby-cli/node_modules/saby-units/cli/isolated --configUnits=testConfig_custom.json   --rc=rc-21.3100 --workDir=G:/repos\n/application --gitMirror=platform-git.sbis.ru --only --node --store=G:/repos/node_modules/wasaby-cli/store/_repos --workspace=G:/repos/application --builderCache=./build-ui/builder-json-cache --buildTools=builder --resources=G:/repo\ns/application",
             "test:coverage": "npx wasaby-cli --tasks=startTest --node --coverage",
             "test:browser": "npx wasaby-cli --tasks=startTest --server",
             "------saby-units---": "",
@@ -29,7 +29,6 @@
             "clone:eo-np": "git clone git@git.sbis.ru:eo/np.git eo-np",
             "clone:fed-specifications": "git clone git@git.sbis.ru:fed/specifications.git fed-specifications",
             "clone:fed-sbis-ru": "git clone git@git.sbis.ru:fed/sbis-ru.git fed-sbis-ru",
-            "build:units": "saby-units --install",
             "------custom build--": "",
             "build:all__CJ_RTC_Complect": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__CJ_RTC_Complect.json",
             "build:all__DocumentFormats": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__DocumentFormats.json",
@@ -42,20 +41,24 @@
             "saby-builder": "git+https://github.com/saby/builder.git#rc-21.5000",
             "saby-typescript": "git+https://github.com/saby/TypeScript.git#rc-21.5000",
             "saby-units": "git+https://github.com/saby/Units.git#rc-21.5000",
-            "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.4000"
+            "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.5000"
       },
       "wasaby-cli": {
             "entry": [
-                  "G:\\repos\\eo-engine\\client\\CJ\\CJ.s3mod",
-                  "G:\\repos\\eo-engine\\client\\CJCommon\\CJCommon.s3mod",
-                  "G:\\repos\\eo-engine\\client\\MiniCJ\\MiniCJ.s3mod",
-                  "G:\\repos\\eo-engine\\client\\RealtimeCheck\\RealtimeCheck.s3mod",
-                  "G:\\repos\\eo-engine\\client\\tests\\CJUnit\\CJUnit.s3mod",
-                  "G:\\repos\\fed-documentformats\\client-adm\\FEDControlPanel\\FEDControlPanel.s3mod",
-                  "G:\\repos\\fed-documentformats\\client-adm\\FEDFormatCP\\FEDFormatCP.s3mod"
+                  "eo-engine/client/CJ/CJ.s3mod",
+                  "eo-engine/client/CJCommon/CJCommon.s3mod",
+                  "eo-engine/client/MiniCJ/MiniCJ.s3mod",
+                  "eo-engine/client/RealtimeCheck/RealtimeCheck.s3mod",
+                  "eo-engine/client/tests/CJUnit/CJUnit.s3mod",
+                  "fed-documentformats/client-adm/FEDControlPanel/FEDControlPanel.s3mod",
+                  "fed-documentformats/client-adm/FEDFormatCP/FEDFormatCP.s3mod"
             ],
             "repositories": {
                   "saby-wasaby-controls": "https://github.com/saby/wasaby-controls.git",
+                  "saby-types": "https://github.com/saby/Types.git",
+                  "saby-ui": "https://github.com/saby/UI.git",
+                  "sbis-rmi": "https://git.sbis.ru/sbis/rmi.git",
+                  "sbis-engine": "https://git.sbis.ru/sbis/engine.git",
                   "eo-core": ".eo-core",
                   "eo-employees": ".eo-employees",
                   "eo-engine": ".eo-engine",
