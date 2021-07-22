@@ -1,6 +1,6 @@
 {
       "name": "repos",
-      "version": "21.4100.0",
+      "version": "21.3100.0",
       "description": "Обертка над используемыми репозиториями",
       "scripts": {
             "------wasaby init---": "",
@@ -29,7 +29,6 @@
             "clone:eo-np": "git clone git@git.sbis.ru:eo/np.git eo-np",
             "clone:fed-specifications": "git clone git@git.sbis.ru:fed/specifications.git fed-specifications",
             "clone:fed-sbis-ru": "git clone git@git.sbis.ru:fed/sbis-ru.git fed-sbis-ru",
-            "build:units": "saby-units --install",
             "------custom build--": "",
             "build:all__CJ_RTC_Complect": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__CJ_RTC_Complect.json",
             "build:all__DocumentFormats": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__DocumentFormats.json",
