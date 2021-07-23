@@ -1,6 +1,6 @@
 {
       "name": "repos",
-      "version": "21.4100.0",
+      "version": "21.3100.0",
       "description": "Обертка над используемыми репозиториями",
       "scripts": {
             "------wasaby init---": "",
@@ -49,7 +49,6 @@
                   "G:\\repos\\eo-engine\\client\\CJCommon\\CJCommon.s3mod",
                   "G:\\repos\\eo-engine\\client\\MiniCJ\\MiniCJ.s3mod",
                   "G:\\repos\\eo-engine\\client\\RealtimeCheck\\RealtimeCheck.s3mod",
-                  "G:\\repos\\eo-engine\\client\\tests\\CJUnit\\CJUnit.s3mod",
                   "G:\\repos\\fed-documentformats\\client-adm\\FEDControlPanel\\FEDControlPanel.s3mod",
                   "G:\\repos\\fed-documentformats\\client-adm\\FEDFormatCP\\FEDFormatCP.s3mod"
             ],
