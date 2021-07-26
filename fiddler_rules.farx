@@ -2,6 +2,7 @@
 <AutoResponder LastSave="2021-07-15T11:14:49.5980202+05:00" FiddlerVersion="5.0.20204.45441">
   <State Enabled="true" AcceptAllConnects="false" Fallthrough="true" UseLatency="false">
     <ResponseGroup Id="464840eb-2e44-4f4e-8d4b-6f748915d7c3" Header="CJ" />
+    <ResponseGroup Id="d6b78a19-a2c6-48b2-b421-2688195c667f" Header="EO" />
     <ResponseGroup Id="f5abeed0-bee2-45d5-b90b-3f898f02d033" Header="FEDFormatCP" />
     <ResponseGroup Id="0bfea2ec-b04a-4d48-92d0-868fc125c533" Header="FEDControlPanel" />
     <ResponseGroup Id="543210c5-2349-4244-b4e3-c8341350dfca" Header="PJ" />
@@ -12,11 +13,11 @@
     <ResponseGroup Id="8eb34770-7443-4750-bb40-cac03848f03c" Header="FED2UI" />
     <ResponseGroup Id="cf6c24da-e9ee-4cb7-913e-9ca6edca11e9" Header="FED2Srv" />
     <ResponseGroup Id="73776972-05a9-4c74-951f-ff84874eca2c" Header="Controls" />
-    <ResponseGroup Id="d6b78a19-a2c6-48b2-b421-2688195c667f" Header="EO" />
     <ResponseGroup Id="91259ac9-4e92-48c5-b5f4-db7286f5c3ac" Header="EOPFR2" />
     <ResponseGroup Id="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Header="CJCommon" />
     <ResponseGroup Id="d2e42adf-6c22-4ace-aea7-4a5bb143e959" Header="FED" />
     <ResponseRule GroupId="464840eb-2e44-4f4e-8d4b-6f748915d7c3" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CJ/(.*)(\?.*)$" Action="G:\repos\application\CJ\$4" Enabled="true" />
+    <ResponseRule GroupId="d6b78a19-a2c6-48b2-b421-2688195c667f" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/EO/(.*)(\?.*)$" Action="G:\repos\application\EO\$4" Enabled="false" />
     <ResponseRule GroupId="f5abeed0-bee2-45d5-b90b-3f898f02d033" Match="regex:^https://(pre-test|test)-cloud.sbis.ru/dfa/resources/FEDFormatCP/(.*)(\?.*)$" Action="G:\repos\application\FEDFormatCP\$2" Enabled="true" />
     <ResponseRule GroupId="0bfea2ec-b04a-4d48-92d0-868fc125c533" Match="regex:^https://(pre-test|test)-cloud.sbis.ru/dfa/resources/FEDControlPanel/(.*)(\?.*)$" Action="G:\repos\application\FEDControlPanel\$2" Enabled="true" />
     <ResponseRule GroupId="2b3c0cb3-d940-4f71-a870-fdbf6b3723d6" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/RealtimeCheck/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\RealtimeCheck\$4" Enabled="true" />
@@ -29,7 +30,6 @@
     <ResponseRule GroupId="543210c5-2349-4244-b4e3-c8341350dfca" Match="regex:^https://(pre-test|test|fix)-(cdn|online).sbis.ru/resources/FED/UI/PJ/(.*)(\?.*)$" Action="G:\repos\fed-core\build\FED\UI\PJ\$3" Enabled="false" />
     <ResponseRule GroupId="543210c5-2349-4244-b4e3-c8341350dfca" Match="regex:^https://(pre-test|test|fix)-(cdn|online).sbis.ru/resources/FED/UI/PJ/Results.js(\?.*)$" Action="G:\repos\fed-core\client\FED\UI\PJ\Results.js" Enabled="false" />
     <ResponseRule GroupId="73776972-05a9-4c74-951f-ff84874eca2c" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).sbis.ru/resources/Controls/(.*)(\?.*)$" Action="G:\repos\_build\build_Platform\output\Controls\$3" Enabled="false" />
-    <ResponseRule GroupId="d6b78a19-a2c6-48b2-b421-2688195c667f" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/EO/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\EO\$4" Enabled="false" />
     <ResponseRule GroupId="91259ac9-4e92-48c5-b5f4-db7286f5c3ac" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/EOPFR2/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\EOPFR2\$4" Enabled="false" />
     <ResponseRule GroupId="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/CJCommon/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\CJCommon\$4" Enabled="true" />
     <ResponseRule GroupId="d2e42adf-6c22-4ace-aea7-4a5bb143e959" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/FED/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\FED\$4" Enabled="false" />

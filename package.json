@@ -48,9 +48,11 @@
                   "G:\\repos\\eo-engine\\client\\CJ\\CJ.s3mod",
                   "G:\\repos\\eo-engine\\client\\CJCommon\\CJCommon.s3mod",
                   "G:\\repos\\eo-engine\\client\\MiniCJ\\MiniCJ.s3mod",
+                  "G:\\repos\\eo-engine\\client\\tests\\CJUnit\\CJUnit.s3mod",
                   "G:\\repos\\eo-engine\\client\\RealtimeCheck\\RealtimeCheck.s3mod",
                   "G:\\repos\\fed-documentformats\\client-adm\\FEDControlPanel\\FEDControlPanel.s3mod",
-                  "G:\\repos\\fed-documentformats\\client-adm\\FEDFormatCP\\FEDFormatCP.s3mod"
+                  "G:\\repos\\fed-documentformats\\client-adm\\FEDFormatCP\\FEDFormatCP.s3mod",
+                  "G:\\repos\\eo-np\\client\\EO\\EO.s3mod"
             ],
             "repositories": {
                   "saby-wasaby-controls": "https://github.com/saby/wasaby-controls.git",
