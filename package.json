@@ -12,6 +12,7 @@
             "wasaby-cli:build-watch": "wasaby-cli --tasks=build --watcher",
             "------symlinks---": "",
             "symlink:application:eo-engine": "mklink /j G:\\repos\\eo-engine\\client\\application G:\\repos\\application",
+            "symlink:build-ui:eo-engine": "mklink /j G:\\repos\\eo-engine\\client\\build-ui G:\\repos\\build-ui",
             "------tests---": "",
             "test:node": "npx wasaby-cli %NODE_DEBUG_OPTION% --tasks=startTest --node --report=console",
             "test:node:eo-engine": "cd eo-engine/client && npm run test:node",
