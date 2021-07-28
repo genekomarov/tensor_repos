@@ -1,6 +1,6 @@
 {
       "name": "repos",
-      "version": "21.4100.0",
+      "version": "21.3100.0",
       "description": "Обертка над используемыми репозиториями",
       "scripts": {
             "------wasaby init---": "",
