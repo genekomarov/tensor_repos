@@ -53,6 +53,7 @@
                   "eo-engine/client/CJCommon/CJCommon.s3mod",
                   "eo-engine/client/MiniCJ/MiniCJ.s3mod",
                   "eo-engine/client/RealtimeCheck/RealtimeCheck.s3mod",
+                  "eo-engine/client/tests/CJUnit/CJUnit.s3mod",
                   "fed-documentformats/client-adm/FEDControlPanel/FEDControlPanel.s3mod",
                   "fed-documentformats/client-adm/FEDFormatCP/FEDFormatCP.s3mod",
                   "eo-np/client/EO/EO.s3mod"
