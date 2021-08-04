@@ -12,12 +12,12 @@
         "eo-engine/client/*",
         "eo-core/client/*",
         "fed-core/client/*",
-        "node_modules/wasaby-cli/store/_repos/fed-core/client/*",
         "node_modules/wasaby-cli/store/_repos/wasaby-controls/*",
+        "node_modules/wasaby-cli/store/_repos/access-control/client/*",
         "node_modules/wasaby-cli/store/_repos/saby-types/*",
         "node_modules/wasaby-cli/store/_repos/saby-ui/*",
         "node_modules/wasaby-cli/store/_repos/saby-ui/UIInferno/*",
-        "node_modules/wasaby-cli/store/_repos/sbis-rmi/src/client/*",
+        "node_modules/wasaby-cli/store/_repos/rmi/src/client/*",
         "node_modules/wasaby-cli/store/_repos/sbis-engine/client/*"
       ]
     }
