@@ -1,6 +1,6 @@
 {
       "name": "repos",
-      "version": "21.4100.0",
+      "version": "21.3100.0",
       "description": "Обертка над используемыми репозиториями",
       "scripts": {
             "------wasaby init---": "",
@@ -62,6 +62,7 @@
                   "fed-sbis-ru/proxy-sbis-ru/client/FedSbisRu/FedSbisRu.s3mod"
             ],
             "repositories": {
+                  "wasaby-controls": "https://github.com/saby/wasaby-controls.git",
                   "sbis3-docview": "https://git.sbis.ru/root/sbis3-docview.git",
                   "eo-core": ".eo-core",
                   "eo-employees": ".eo-employees",
