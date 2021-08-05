@@ -1,6 +1,6 @@
 {
       "name": "repos",
-      "version": "21.4100.0",
+      "version": "21.3100.0",
       "description": "Обертка над используемыми репозиториями",
       "scripts": {
             "------wasaby init---": "",
@@ -58,7 +58,8 @@
                   "fed-documentformats/client-adm/FEDControlPanel/FEDControlPanel.s3mod",
                   "fed-documentformats/client-adm/FEDFormatCP/FEDFormatCP.s3mod",
                   "fed-documentformats/client-adm/FEDEngine/FEDEngine.s3mod",
-                  "eo-np/client/EO/EO.s3mod"
+                  "eo-np/client/EO/EO.s3mod",
+                  "fed-sbis-ru/proxy-sbis-ru/client/FedSbisRu/FedSbisRu.s3mod"
             ],
             "repositories": {
                   "sbis3-docview": "https://git.sbis.ru/root/sbis3-docview.git",
