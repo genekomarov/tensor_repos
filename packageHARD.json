@@ -1,0 +1,82 @@
+{
+      "name": "repos",
+      "version": "21.5100.0",
+      "description": "Обертка над используемыми репозиториями",
+      "scripts": {
+            "------wasaby init---": "",
+            "wasaby-cli:init-store": "wasaby-cli --tasks=initStore",
+            "wasaby-cli:init-store:3100": "npm version 21.3100.0 -f || wasaby-cli --tasks=initStore",
+            "wasaby-cli:init-store:4100": "npm version 21.4100.0 -f || wasaby-cli --tasks=initStore",
+            "wasaby-cli:init-store:5100": "npm version 21.5100.0 -f || wasaby-cli --tasks=initStore",
+            "------checkout---": "",
+            "checkout": "start checkout.cmd",
+            "------wasaby build---": "",
+            "wasaby-cli:build": "wasaby-cli --tasks=build",
+            "wasaby-cli:build-watch": "wasaby-cli --tasks=build --watcher",
+            "------symlinks---": "",
+            "symlink:application:eo-engine": "mklink /j G:\\repos\\eo-engine\\client\\application G:\\repos\\application",
+            "symlink:build-ui:eo-engine": "mklink /j G:\\repos\\eo-engine\\client\\build-ui G:\\repos\\build-ui",
+            "------tests---": "",
+            "test:node": "npx wasaby-cli %NODE_DEBUG_OPTION% --tasks=startTest --node --report=console",
+            "test:node:eo-engine": "cd eo-engine/client && npm run test:node",
+            "test:custom": "node node_modules/wasaby-cli/node_modules/saby-units/mocha -t 10000 node_modules/wasaby-cli/node_modules/saby-units/cli/isolated --configUnits=testConfig_custom.json   --rc=rc-21.3100 --workDir=G:/repos\n/application --gitMirror=platform-git.sbis.ru --only --node --store=G:/repos/node_modules/wasaby-cli/store/_repos --workspace=G:/repos/application --builderCache=./build-ui/builder-json-cache --buildTools=builder --resources=G:/repo\ns/application",
+            "test:coverage": "npx wasaby-cli --tasks=startTest --node --coverage",
+            "test:coverage:eo-engine": "cd eo-engine/client && npm run test:coverage",
+            "test:browser": "npx wasaby-cli --tasks=startTest --server",
+            "------saby-units---": "",
+            "build:units": "saby-units --install",
+            "------clone others---": "",
+            "clone:eo-engine": "git clone git@git.sbis.ru:eo/engine.git eo-engine",
+            "clone:eo-core": "git clone git@git.sbis.ru:eo/core.git eo-core",
+            "clone:fed-core": "git clone git@git.sbis.ru:fed/core.git fed-core",
+            "clone:fed-documentformats": "git clone git@git.sbis.ru:fed/documentformats.git fed-documentformats",
+            "clone:eo-employees": "git clone git@git.sbis.ru:eo/employees.git eo-employees",
+            "clone:eo-np": "git clone git@git.sbis.ru:eo/np.git eo-np",
+            "clone:fed-specifications": "git clone git@git.sbis.ru:fed/specifications.git fed-specifications",
+            "clone:fed-sbis-ru": "git clone git@git.sbis.ru:fed/sbis-ru.git fed-sbis-ru",
+            "------custom build--": "",
+            "build:all__CJ_RTC_Complect": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__CJ_RTC_Complect.json",
+            "build:all__DocumentFormats": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__DocumentFormats.json",
+            "build:all__Platform": "node ./node_modules/gulp/bin/gulp.js --gulpfile ./node_modules/saby-builder/gulpfile.js build --config=../../builderConfig__Platform.json"
+      },
+      "devDependencies": {
+            "@tensor-corp/eslint-config": "git+https://git.sbis.ru/sbis/eslint-config-tensor.git",
+            "@types/mocha": "^8.2.3",
+            "eslint": "^5.1.0",
+            "saby-builder": "git+https://github.com/saby/builder.git#rc-21.5000",
+            "saby-typescript": "git+https://github.com/saby/TypeScript.git#rc-21.5000",
+            "saby-units": "git+https://github.com/saby/Units.git#rc-21.5000",
+            "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.5000"
+      },
+      "wasaby-cli": {
+            "entry": [
+                  "eo-engine/client/CJ/CJ.s3mod",
+                  "eo-engine/client/CJCommon/CJCommon.s3mod",
+                  "eo-engine/client/MiniCJ/MiniCJ.s3mod",
+                  "eo-engine/client/RealtimeCheck/RealtimeCheck.s3mod",
+                  "eo-engine/client/tests/CJUnit/CJUnit.s3mod",
+                  "fed-documentformats/client-adm/FEDControlPanel/FEDControlPanel.s3mod",
+                  "fed-documentformats/client-adm/FEDFormatCP/FEDFormatCP.s3mod",
+                  "fed-documentformats/client-adm/FEDEngine/FEDEngine.s3mod",
+                  "eo-np/client/EO/EO.s3mod",
+                  "fed-sbis-ru/proxy-sbis-ru/client/FedSbisRu/FedSbisRu.s3mod"
+            ],
+            "repositories": {
+                  "wasaby-controls": "https://github.com/saby/wasaby-controls.git",
+                  "sbis3-docview": "https://git.sbis.ru/root/sbis3-docview.git",
+                  "eo-core": ".eo-core",
+                  "eo-employees": ".eo-employees",
+                  "eo-engine": ".eo-engine",
+                  "eo-np": ".eo-np",
+                  "fed-core": ".fed-core",
+                  "fed-documentformats": ".fed-documentformats",
+                  "fed-specifications": ".fed-specifications",
+                  "fed-sbis-ru": ".fed-sbis-ru"
+            }
+      },
+      "saby-units": {
+            "links": {
+                  "node_modules/wasaby-controls/Controls": "Controls"
+            }
+      }
+}
