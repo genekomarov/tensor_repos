@@ -34,5 +34,13 @@
             "saby-typescript": "git+https://github.com/saby/TypeScript.git#rc-21.5000",
             "saby-units": "git+https://github.com/saby/Units.git#rc-21.5000",
             "wasaby-cli": "git+https://github.com/saby/wasaby-cli.git#rc-21.5000"
+      },
+      "wasaby-cli": {
+            "repositories": {
+                  "rmi": "https://git.sbis.ru/sbis/rmi.git",
+                  "saby-types": "https://github.com/saby/Types.git",
+                  "saby-ui": "https://github.com/saby/UI.git",
+                  "wasaby-controls": "https://github.com/saby/wasaby-controls.git"
+            }
       }
 }
