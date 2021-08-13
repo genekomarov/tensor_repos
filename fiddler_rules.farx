@@ -1,7 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AutoResponder LastSave="2021-08-03T12:59:51.1019116+05:00" FiddlerVersion="5.0.20204.45441">
   <State Enabled="true" AcceptAllConnects="false" Fallthrough="true" UseLatency="false">
+
     <ResponseGroup Id="001" Header="CJ" />
+    <ResponseRule GroupId="001" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CJ\$4" Enabled="true" />
+
     <ResponseGroup Id="002" Header="EO" />
     <ResponseGroup Id="003" Header="EOComplect" />
     <ResponseGroup Id="004" Header="FEDControlPanel" />
@@ -18,7 +21,6 @@
     <ResponseGroup Id="2b3c0cb3-d940-4f71-a870-fdbf6b3723d6" Header="RealtimeCheck" />
     <ResponseGroup Id="0387a28c-9261-4ee2-9eb8-a77b5714e47d" Header="MiniCJ" />
     <ResponseGroup Id="d2e42adf-6c22-4ace-aea7-4a5bb143e959" Header="FED" />
-    <ResponseRule GroupId="001" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CJ/(.*)(\?.*)$" Action="G:\repos\application\CJ\$4" Enabled="true" />
     <ResponseRule GroupId="002" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/EO/(.*)(\?.*)$" Action="G:\repos\application\EO\$4" Enabled="true" />
     <ResponseRule GroupId="003" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/EOComplect/(.*)(\?.*)$" Action="G:\repos\application\EOComplect\$4" Enabled="true" />
     <ResponseRule GroupId="004" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDControlPanel/(.*)(\?.*)$" Action="G:\repos\application\FEDControlPanel\$2" Enabled="true" />
