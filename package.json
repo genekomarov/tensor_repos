@@ -11,6 +11,8 @@
             "------checkout---": "",
             "checkout": "start checkout.cmd",
             "------wasaby build---": "",
+            "wasaby-cli:build": "wasaby-cli --tasks=build",
+            "wasaby-cli:build-watch": "wasaby-cli --tasks=build --watcher",
             "build-watch:eo-engine": "cd eo-engine/client && npm run build-watch",
             "------symlinks---": "",
             "------tests---": "",
@@ -38,9 +40,12 @@
       "wasaby-cli": {
             "repositories": {
                   "rmi": "https://git.sbis.ru/sbis/rmi.git",
-                  "saby-types": "https://github.com/saby/Types.git",
-                  "saby-ui": "https://github.com/saby/UI.git",
-                  "wasaby-controls": "https://github.com/saby/wasaby-controls.git"
-            }
+                  "wasaby-controls": "https://github.com/saby/wasaby-controls.git",
+                  "sbis3-ws": "https://git.sbis.ru/sbis/ws.git",
+                  "wasaby-hot-reload": "https://platform-git.sbis.ru/saby/wasaby-hot-reload.git"
+            },
+            "entry": [
+                  "eo-core/client/DispatchedReport/DispatchedReport.s3mod"
+            ]
       }
 }
