@@ -5,6 +5,9 @@
     <ResponseGroup Id="001" Header="CJ" />
     <ResponseRule GroupId="001" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CJ\$4" Enabled="true" />
 
+    <ResponseGroup Id="010" Header="DispatchedReport" />
+        <ResponseRule GroupId="010" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/DispatchedReport/(.*)(\?.*)$" Action="G:\repos\application\DispatchedReport\$4" Enabled="true" />
+
     <ResponseGroup Id="002" Header="EO" />
     <ResponseGroup Id="003" Header="EOComplect" />
     <ResponseGroup Id="004" Header="FEDControlPanel" />
@@ -13,6 +16,7 @@
     <ResponseGroup Id="007" Header="FedSbisRu" />
     <ResponseGroup Id="008" Header="FED2UI" />
     <ResponseGroup Id="009" Header="FED2Srv" />
+
     <ResponseGroup Id="91259ac9-4e92-48c5-b5f4-db7286f5c3ac" Header="EOPFR2" />
     <ResponseGroup Id="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Header="CJCommon" />
     <ResponseGroup Id="73776972-05a9-4c74-951f-ff84874eca2c" Header="Controls" />
