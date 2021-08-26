@@ -8,6 +8,9 @@
     <ResponseGroup Id="010" Header="DispatchedReport" />
         <ResponseRule GroupId="010" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/DispatchedReport/(.*)(\?.*)$" Action="G:\repos\application\DispatchedReport\$4" Enabled="true" />
 
+    <ResponseGroup Id="011" Header="CheckStatusPanel" />
+        <ResponseRule GroupId="011" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CheckStatusPanel/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CheckStatusPanel\$4" Enabled="true" />
+
     <ResponseGroup Id="002" Header="EO" />
     <ResponseGroup Id="003" Header="EOComplect" />
     <ResponseGroup Id="004" Header="FEDControlPanel" />
