@@ -3,7 +3,10 @@
   <State Enabled="true" AcceptAllConnects="false" Fallthrough="true" UseLatency="false">
 
     <ResponseGroup Id="001" Header="CJ" />
-    <ResponseRule GroupId="001" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CJ\$4" Enabled="true" />
+        <ResponseRule GroupId="001" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CJ\$4" Enabled="true" />
+
+    <ResponseGroup Id="012" Header="MiniCJ" />
+        <ResponseRule GroupId="012" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/MiniCJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\MiniCJ\$4" Enabled="true" />
 
     <ResponseGroup Id="010" Header="DispatchedReport" />
         <ResponseRule GroupId="010" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/DispatchedReport/(.*)(\?.*)$" Action="G:\repos\application\DispatchedReport\$4" Enabled="true" />
@@ -26,7 +29,6 @@
     <ResponseGroup Id="543210c5-2349-4244-b4e3-c8341350dfca" Header="PJ" />
     <ResponseGroup Id="dba4abf5-b28f-4b78-b76a-b7f8e7ed7336" Header="EOCore" />
     <ResponseGroup Id="2b3c0cb3-d940-4f71-a870-fdbf6b3723d6" Header="RealtimeCheck" />
-    <ResponseGroup Id="0387a28c-9261-4ee2-9eb8-a77b5714e47d" Header="MiniCJ" />
     <ResponseGroup Id="d2e42adf-6c22-4ace-aea7-4a5bb143e959" Header="FED" />
     <ResponseRule GroupId="002" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/EO/(.*)(\?.*)$" Action="G:\repos\application\EO\$4" Enabled="true" />
     <ResponseRule GroupId="003" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/EOComplect/(.*)(\?.*)$" Action="G:\repos\application\EOComplect\$4" Enabled="true" />
@@ -37,7 +39,6 @@
     <ResponseRule GroupId="008" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/FED2UI/(.*js|.*wml)(\?.*)$" Action="G:\repos\application\FED2UI\$4" Enabled="true" />
     <ResponseRule GroupId="009" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/FED2Srv/(.*js|.*wml)(\?.*)$" Action="G:\repos\application\FED2Srv\$4" Enabled="true" />
     <ResponseRule GroupId="2b3c0cb3-d940-4f71-a870-fdbf6b3723d6" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/RealtimeCheck/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\RealtimeCheck\$4" Enabled="false" />
-    <ResponseRule GroupId="0387a28c-9261-4ee2-9eb8-a77b5714e47d" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/MiniCJ/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\MiniCJ\$4" Enabled="false" />
     <ResponseRule GroupId="dba4abf5-b28f-4b78-b76a-b7f8e7ed7336" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).sbis.ru/resources/EOCore/(.*js|.*wml)(\?.*)$" Action="G:\repos\.builder\output\EOCore\$3" Enabled="false" />
     <ResponseRule GroupId="543210c5-2349-4244-b4e3-c8341350dfca" Match="regex:^https://(pre-test|test|fix)-(cdn|online).sbis.ru/resources/FED/UI/PJ/(.*)(\?.*)$" Action="G:\repos\fed-core\build\FED\UI\PJ\$3" Enabled="false" />
     <ResponseRule GroupId="543210c5-2349-4244-b4e3-c8341350dfca" Match="regex:^https://(pre-test|test|fix)-(cdn|online).sbis.ru/resources/FED/UI/PJ/Results.js(\?.*)$" Action="G:\repos\fed-core\client\FED\UI\PJ\Results.js" Enabled="false" />
