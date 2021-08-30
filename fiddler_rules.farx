@@ -8,6 +8,9 @@
     <ResponseGroup Id="012" Header="MiniCJ" />
         <ResponseRule GroupId="012" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/MiniCJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\MiniCJ\$4" Enabled="true" />
 
+    <ResponseGroup Id="003" Header="EOComplect" />
+        <ResponseRule GroupId="003" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/EOComplect/(.*)(\?.*)$" Action="G:\repos\application\EOComplect\$4" Enabled="true" />
+
     <ResponseGroup Id="010" Header="DispatchedReport" />
         <ResponseRule GroupId="010" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/DispatchedReport/(.*)(\?.*)$" Action="G:\repos\application\DispatchedReport\$4" Enabled="true" />
 
@@ -15,14 +18,12 @@
         <ResponseRule GroupId="011" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CheckStatusPanel/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CheckStatusPanel\$4" Enabled="true" />
 
     <ResponseGroup Id="002" Header="EO" />
-    <ResponseGroup Id="003" Header="EOComplect" />
     <ResponseGroup Id="004" Header="FEDControlPanel" />
     <ResponseGroup Id="005" Header="FEDFormatCP" />
     <ResponseGroup Id="006" Header="FEDEngine" />
     <ResponseGroup Id="007" Header="FedSbisRu" />
     <ResponseGroup Id="008" Header="FED2UI" />
     <ResponseGroup Id="009" Header="FED2Srv" />
-
     <ResponseGroup Id="91259ac9-4e92-48c5-b5f4-db7286f5c3ac" Header="EOPFR2" />
     <ResponseGroup Id="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Header="CJCommon" />
     <ResponseGroup Id="73776972-05a9-4c74-951f-ff84874eca2c" Header="Controls" />
@@ -31,7 +32,7 @@
     <ResponseGroup Id="2b3c0cb3-d940-4f71-a870-fdbf6b3723d6" Header="RealtimeCheck" />
     <ResponseGroup Id="d2e42adf-6c22-4ace-aea7-4a5bb143e959" Header="FED" />
     <ResponseRule GroupId="002" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/EO/(.*)(\?.*)$" Action="G:\repos\application\EO\$4" Enabled="true" />
-    <ResponseRule GroupId="003" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/EOComplect/(.*)(\?.*)$" Action="G:\repos\application\EOComplect\$4" Enabled="true" />
+
     <ResponseRule GroupId="004" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDControlPanel/(.*)(\?.*)$" Action="G:\repos\application\FEDControlPanel\$2" Enabled="true" />
     <ResponseRule GroupId="005" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDFormatCP/(.*)(\?.*)$" Action="G:\repos\application\FEDFormatCP\$2" Enabled="true" />
     <ResponseRule GroupId="006" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDEngine/(.*)(\?.*)$" Action="G:\repos\application\FEDEngine\$2" Enabled="true" />

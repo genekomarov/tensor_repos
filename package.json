@@ -1,6 +1,6 @@
 {
       "name": "repos",
-      "version": "21.4100.0",
+      "version": "21.4206.0",
       "description": "Обертка над используемыми репозиториями",
       "scripts": {
             "------wasaby init---": "",
@@ -39,15 +39,19 @@
       },
       "wasaby-cli": {
             "repositories": {
+                  "fed-core": "https://git.sbis.ru/fed/core.git",
+                  "eo-engine": "https://git.sbis.ru/eo/engine.git",
                   "rmi": "https://git.sbis.ru/sbis/rmi.git",
                   "wasaby-controls": "https://github.com/saby/wasaby-controls.git",
                   "sbis3-ws": "https://git.sbis.ru/sbis/ws.git",
                   "wasaby-hot-reload": "https://platform-git.sbis.ru/saby/wasaby-hot-reload.git",
                   "saby-types": "https://platform-git.sbis.ru/saby/Types.git",
-                  "saby-ui": "https://platform-git.sbis.ru/saby/ui.git"
+                  "saby-ui": "https://platform-git.sbis.ru/saby/ui.git",
+                  "sbis-engine": "https://git.sbis.ru/sbis/engine.git"
             },
             "entry": [
-                  "eo-core/client/DispatchedReport/DispatchedReport.s3mod"
+                  "eo-core/client/DispatchedReport/DispatchedReport.s3mod",
+                  "eo-core/client/EOComplect/EOComplect.s3mod"
             ]
       }
 }
