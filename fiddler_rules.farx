@@ -9,7 +9,7 @@
         <ResponseRule GroupId="012" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/MiniCJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\MiniCJ\$4" Enabled="true" />
 
     <ResponseGroup Id="003" Header="EOComplect" />
-        <ResponseRule GroupId="003" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/EOComplect/(.*)(\?.*)$" Action="G:\repos\application\EOComplect\$4" Enabled="true" />
+        <ResponseRule GroupId="003" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/EOComplect/(.*)(\?.*)$" Action="G:\repos\eo-core\application\EOComplect\$4" Enabled="true" />
 
     <ResponseGroup Id="010" Header="DispatchedReport" />
         <ResponseRule GroupId="010" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/DispatchedReport/(.*)(\?.*)$" Action="G:\repos\application\DispatchedReport\$4" Enabled="true" />
