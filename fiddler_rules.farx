@@ -17,9 +17,13 @@
     <ResponseGroup Id="011" Header="CheckStatusPanel" />
         <ResponseRule GroupId="011" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/CheckStatusPanel/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CheckStatusPanel\$4" Enabled="true" />
 
-    <ResponseGroup Id="002" Header="EO" />
     <ResponseGroup Id="004" Header="FEDControlPanel" />
+        <ResponseRule GroupId="004" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDControlPanel/(.*)(\?.*)$" Action="G:\repos\fed-documentformats\client-adm\application\FEDControlPanel\$2" Enabled="true" />
+
     <ResponseGroup Id="005" Header="FEDFormatCP" />
+        <ResponseRule GroupId="005" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDFormatCP/(.*)(\?.*)$" Action="G:\repos\fed-documentformats\client-adm\application\FEDFormatCP\$2" Enabled="true" />
+
+    <ResponseGroup Id="002" Header="EO" />
     <ResponseGroup Id="006" Header="FEDEngine" />
     <ResponseGroup Id="007" Header="FedSbisRu" />
     <ResponseGroup Id="008" Header="FED2UI" />
@@ -32,9 +36,6 @@
     <ResponseGroup Id="2b3c0cb3-d940-4f71-a870-fdbf6b3723d6" Header="RealtimeCheck" />
     <ResponseGroup Id="d2e42adf-6c22-4ace-aea7-4a5bb143e959" Header="FED" />
     <ResponseRule GroupId="002" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/EO/(.*)(\?.*)$" Action="G:\repos\application\EO\$4" Enabled="true" />
-
-    <ResponseRule GroupId="004" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDControlPanel/(.*)(\?.*)$" Action="G:\repos\application\FEDControlPanel\$2" Enabled="true" />
-    <ResponseRule GroupId="005" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDFormatCP/(.*)(\?.*)$" Action="G:\repos\application\FEDFormatCP\$2" Enabled="true" />
     <ResponseRule GroupId="006" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDEngine/(.*)(\?.*)$" Action="G:\repos\application\FEDEngine\$2" Enabled="true" />
     <ResponseRule GroupId="007" Match="regex:^https://(pre-test|test|fix).sbis.ru/formats/resources/FedSbisRu/(.*)(\?.*)$" Action="G:\repos\application\FedSbisRu\$2" Enabled="true" />
     <ResponseRule GroupId="008" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/FED2UI/(.*js|.*wml)(\?.*)$" Action="G:\repos\application\FED2UI\$4" Enabled="true" />
