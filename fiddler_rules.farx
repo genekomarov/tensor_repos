@@ -23,11 +23,15 @@
     <ResponseGroup Id="005" Header="FEDFormatCP" />
         <ResponseRule GroupId="005" Match="regex:^https://(pre-test|test|fix)-cloud.sbis.ru/dfa/resources/FEDFormatCP/(.*)(\?.*)$" Action="G:\repos\fed-documentformats\client-adm\application\FEDFormatCP\$2" Enabled="true" />
 
+    <ResponseGroup Id="008" Header="FED2UI" />
+        <ResponseRule GroupId="008" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/FED2UI/(.*js|.*wml)(\?.*)$" Action="G:\repos\fed-core\client\application\FED2UI\$4" Enabled="true" />
+
+    <ResponseGroup Id="009" Header="FED2Srv" />
+        <ResponseRule GroupId="009" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/FED2Srv/(.*js|.*wml)(\?.*)$" Action="G:\repos\fed-core\client\application\FED2Srv\$4" Enabled="true" />
+
     <ResponseGroup Id="002" Header="EO" />
     <ResponseGroup Id="006" Header="FEDEngine" />
     <ResponseGroup Id="007" Header="FedSbisRu" />
-    <ResponseGroup Id="008" Header="FED2UI" />
-    <ResponseGroup Id="009" Header="FED2Srv" />
     <ResponseGroup Id="91259ac9-4e92-48c5-b5f4-db7286f5c3ac" Header="EOPFR2" />
     <ResponseGroup Id="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Header="CJCommon" />
     <ResponseGroup Id="73776972-05a9-4c74-951f-ff84874eca2c" Header="Controls" />
