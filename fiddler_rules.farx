@@ -8,6 +8,9 @@
     <ResponseGroup Id="012" Header="MiniCJ" />
         <ResponseRule GroupId="012" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/MiniCJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\MiniCJ\$4" Enabled="true" />
 
+    <ResponseGroup Id="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Header="CJCommon" />
+        <ResponseRule GroupId="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/CJCommon/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CJCommon\$4" Enabled="true" />
+
     <ResponseGroup Id="003" Header="EOComplect" />
         <ResponseRule GroupId="003" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/EOComplect/(.*)(\?.*)$" Action="G:\repos\eo-core\application\EOComplect\$4" Enabled="true" />
 
@@ -33,7 +36,6 @@
     <ResponseGroup Id="006" Header="FEDEngine" />
     <ResponseGroup Id="007" Header="FedSbisRu" />
     <ResponseGroup Id="91259ac9-4e92-48c5-b5f4-db7286f5c3ac" Header="EOPFR2" />
-    <ResponseGroup Id="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Header="CJCommon" />
     <ResponseGroup Id="73776972-05a9-4c74-951f-ff84874eca2c" Header="Controls" />
     <ResponseGroup Id="543210c5-2349-4244-b4e3-c8341350dfca" Header="PJ" />
     <ResponseGroup Id="dba4abf5-b28f-4b78-b76a-b7f8e7ed7336" Header="EOCore" />
@@ -50,7 +52,6 @@
     <ResponseRule GroupId="543210c5-2349-4244-b4e3-c8341350dfca" Match="regex:^https://(pre-test|test|fix)-(cdn|online).sbis.ru/resources/FED/UI/PJ/Results.js(\?.*)$" Action="G:\repos\fed-core\client\FED\UI\PJ\Results.js" Enabled="false" />
     <ResponseRule GroupId="73776972-05a9-4c74-951f-ff84874eca2c" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).sbis.ru/resources/Controls/(.*)(\?.*)$" Action="G:\repos\_build\build_Platform\output\Controls\$3" Enabled="false" />
     <ResponseRule GroupId="91259ac9-4e92-48c5-b5f4-db7286f5c3ac" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/EOPFR2/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\EOPFR2\$4" Enabled="false" />
-    <ResponseRule GroupId="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/CJCommon/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\CJCommon\$4" Enabled="false" />
     <ResponseRule GroupId="d2e42adf-6c22-4ace-aea7-4a5bb143e959" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/FED/(.*)(\?.*)$" Action="G:\repos\_build\build_CJ_RTC_Complect\output\FED\$4" Enabled="false" />
   </State>
 </AutoResponder>
