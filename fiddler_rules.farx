@@ -8,8 +8,11 @@
     <ResponseGroup Id="012" Header="MiniCJ" />
         <ResponseRule GroupId="012" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/MiniCJ/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\MiniCJ\$4" Enabled="true" />
 
-    <ResponseGroup Id="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Header="CJCommon" />
-        <ResponseRule GroupId="7cc50f32-c0e2-4559-ac36-5ef42f097f1a" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/CJCommon/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CJCommon\$4" Enabled="true" />
+    <ResponseGroup Id="014" Header="CJCommon" />
+        <ResponseRule GroupId="014" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/resources/CJCommon/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\CJCommon\$4" Enabled="true" />
+
+    <ResponseGroup Id="013" Header="JournalController" />
+            <ResponseRule GroupId="013" Match="regex:^https://(pre-test|test|fix)-(cdn|online).(sbis|saby).ru/JournalController/(.*)(\?.*)$" Action="G:\repos\eo-engine\client\application\JournalController\$4" Enabled="true" />
 
     <ResponseGroup Id="003" Header="EOComplect" />
         <ResponseRule GroupId="003" Match="regex:^https://(pre-test|test|fix)-(cdn-cdnnow|cdn|online).(sbis|saby).ru/resources/EOComplect/(.*)(\?.*)$" Action="G:\repos\eo-core\application\EOComplect\$4" Enabled="true" />
